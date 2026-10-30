@@ -1,0 +1,72 @@
+{
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "eval_users": 1000,
+    "eval_user_seed": 42,
+    "head_epochs": 3,
+    "rq_epochs": 15,
+    "gen_epochs": 5,
+    "max_windows": 60000,
+    "beam": 30,
+    "n_codes": 256,
+    "device": "cuda",
+    "hist_len": 10,
+    "note": "C=pretrained MRL prefix; backbone frozen in all methods. B=QR matrix, not full SpecMRL.",
+    "rq_warmup_epochs": 10
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "model_cache_metadata": {
+    "model": "C:/Users/Lenovo/.cache/huggingface/hub/models--google--embeddinggemma-2/snapshots/f9972ac22e696a105c482202646979e33e4b5a1e",
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "max_tokens": 192,
+    "batch_size": 16,
+    "shape": [
+      12069,
+      768
+    ],
+    "finite": true,
+    "batch_consistency_max_abs": 0.001953125,
+    "truncated_items": 256,
+    "token_length_max": 346,
+    "token_length_mean": 110.89767172093794,
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "peak_allocated_bytes": 938083840,
+    "float32_renormalized": true
+  },
+  "data_audit": {
+    "raw_review_events": 198502,
+    "positive_review_events": 154272,
+    "eligible_users_before_metadata": 14993,
+    "retained_users": 14993,
+    "retained_items": 12069,
+    "missing_metadata_items": 0,
+    "empty_titles": 7,
+    "retained_interactions": 130455,
+    "train_interactions": 100469,
+    "split_sha256": "27cc5e00fb7e6cccf02462771e9547a5dc972b637b5631844acb80ce08bc1732"
+  },
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "transformers": "5.22.0",
+    "sentence-transformers": "6.2.0",
+    "torchvision": "0.26.0+cu128"
+  },
+  "sha256": {
+    "mini_tiger.py": "10a677ab711887eae4f3b77f9b0e6818dad73bf6f07e55798c3d9439672bbb4e",
+    "work\\beauty.json": "2ab1cfd8dc0737fd12a8666bdd7f153adfbb8123a96c3299918bdb570f903dfc",
+    "work\\full768.npy": "df6e96c4abd7b0036ce89629cea6f7a263bab88c4549388edacf4a3c4dbdcf5f",
+    "data\\reviews_Beauty_5.json.gz": "6b4314ec0d74fba455d4ada65cf1313194665797c0f2d33a7c9a516da3968c20",
+    "data\\meta_Beauty.json.gz": "de77f42de70131ef35cb8e3274d4a290e511203c2cd0396b6440d541da055095"
+  }
+}

@@ -1,0 +1,17 @@
+linear collab 16/256 loss=3.8615 seconds=1.4 peakGB=0.17
+linear collab 32/256 loss=3.5277 seconds=1.4 peakGB=0.17
+linear collab 48/256 loss=3.3978 seconds=1.5 peakGB=0.17
+linear collab 64/256 loss=3.6991 seconds=1.6 peakGB=0.17
+linear collab 80/256 loss=3.0574 seconds=1.6 peakGB=0.17
+linear collab 96/256 loss=3.2621 seconds=1.7 peakGB=0.17
+linear collab 112/256 loss=2.8794 seconds=1.7 peakGB=0.17
+linear collab 128/256 loss=3.4150 seconds=1.8 peakGB=0.17
+linear collab 144/256 loss=3.1762 seconds=1.8 peakGB=0.17
+linear collab 160/256 loss=2.8647 seconds=1.9 peakGB=0.17
+linear collab 176/256 loss=3.1775 seconds=2.0 peakGB=0.17
+linear collab 192/256 loss=3.3251 seconds=2.0 peakGB=0.17
+linear collab 208/256 loss=3.7882 seconds=2.1 peakGB=0.17
+linear collab 224/256 loss=3.1637 seconds=2.1 peakGB=0.17
+linear collab 240/256 loss=3.2960 seconds=2.2 peakGB=0.17
+linear collab 256/256 loss=3.2668 seconds=2.3 peakGB=0.17
+FINISHED {"kind": "linear", "setting": "collab", "seed": 0, "parameters": 98432, "train_seconds": 2.2555104000493884, "total_seconds": 2.3745520999655128, "peak_bytes": 168136704, "gradient_audit": {"nonzero_trainable_gradient_tensors": 2, "trainable_parameter_tensors": 2, "unexpected_frozen_gradients": 0}, "rec_validation_recall10": 0.042, "rec_validation_ndcg10": 0.023772025555372236, "rec_validation_candidates": 12069, "text_validation_recall10": 0.984375, "text_validation_ndcg10": 0.9176724354426066, "text_validation_candidates": 1536}

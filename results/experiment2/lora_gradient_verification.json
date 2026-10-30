@@ -1,0 +1,8 @@
+{
+  "direct_loss": 1.7156996726989746,
+  "cached_loss": 1.7156996726989746,
+  "gradient_max_abs_difference": 0.0003078840672969818,
+  "gradient_reference_max": 0.05363509804010391,
+  "frozen_parameter_gradients": 0,
+  "passed": true
+}

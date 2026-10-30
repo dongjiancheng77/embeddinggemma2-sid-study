@@ -1,0 +1,194 @@
+{
+  "conditions": [
+    {
+      "setting": "collab",
+      "seed": 0,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 0,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 0,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 0,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 0,
+      "kind": "lora",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 1,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 1,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 1,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 1,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 1,
+      "kind": "lora",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 2,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 2,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 2,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 2,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "collab",
+      "seed": 2,
+      "kind": "lora",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 0,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 0,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 0,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 0,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 0,
+      "kind": "lora",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 1,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 1,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 1,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 1,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 1,
+      "kind": "lora",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 2,
+      "kind": "linear",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 2,
+      "kind": "ortho",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 2,
+      "kind": "mrl",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 2,
+      "kind": "pca",
+      "passed": true
+    },
+    {
+      "setting": "mixed",
+      "seed": 2,
+      "kind": "lora",
+      "passed": true
+    }
+  ],
+  "normal_text_train_validation_overlap": 0,
+  "provenance_hashes_match": true,
+  "lora_gradient_cache_verification": {
+    "direct_loss": 1.7156996726989746,
+    "cached_loss": 1.7156996726989746,
+    "gradient_max_abs_difference": 0.0003078840672969818,
+    "gradient_reference_max": 0.05363509804010391,
+    "frozen_parameter_gradients": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,1877 @@
+{
+  "revision": "e9443ab6f5d4dc29c79cea03834e932428ed6ab1",
+  "tree": [
+    {
+      "type": "directory",
+      "oid": "ed990f83e9c9f34f641ac493a83ad8289ed00219",
+      "size": 0,
+      "path": "AFQMC"
+    },
+    {
+      "type": "directory",
+      "oid": "b026b0e2ccd13e64b952405e5ce988144096157b",
+      "size": 0,
+      "path": "AdvertiseGen"
+    },
+    {
+      "type": "directory",
+      "oid": "f10f306ccc2419dc0a37e17e5ce47d29155ab24d",
+      "size": 0,
+      "path": "CAIL2019-SCM"
+    },
+    {
+      "type": "directory",
+      "oid": "e9643c61e81326614d0253a1bfd5024c30f581fe",
+      "size": 0,
+      "path": "CHEF"
+    },
+    {
+      "type": "directory",
+      "oid": "778606a7bd50a2add879f047b1ac9fd8d1794eb7",
+      "size": 0,
+      "path": "CINLID"
+    },
+    {
+      "type": "directory",
+      "oid": "1a12da1d07c4a84f0b043b9de0db60080d4a7cf7",
+      "size": 0,
+      "path": "ChatMed_Consult_Dataset"
+    },
+    {
+      "type": "directory",
+      "oid": "f9f9fd16b8f89c6ce627858883cda3fb4f656c40",
+      "size": 0,
+      "path": "ChineseSTS"
+    },
+    {
+      "type": "directory",
+      "oid": "8ea9e871229cb6d5cbd55374f73934eb3a0f5b63",
+      "size": 0,
+      "path": "CodeFeedback"
+    },
+    {
+      "type": "directory",
+      "oid": "0eb7e9c6cd2c78190bc2cc79c231369b6bf5912b",
+      "size": 0,
+      "path": "DRCD"
+    },
+    {
+      "type": "directory",
+      "oid": "ec259de0d76df51e6086ce18a8ce72412a0dfc05",
+      "size": 0,
+      "path": "ELI5_custom"
+    },
+    {
+      "type": "directory",
+      "oid": "fb6e00f7d23e9ba937502d9a9db4e73050b97d6c",
+      "size": 0,
+      "path": "Expertqa"
+    },
+    {
+      "type": "directory",
+      "oid": "22c7dfa657301d90e58b138f6104d2ae518e36ae",
+      "size": 0,
+      "path": "GooAQ"
+    },
+    {
+      "type": "directory",
+      "oid": "2ca9fa4a4c2d5b2c3a6fb20a174c7159543d0a75",
+      "size": 0,
+      "path": "LCSTS"
+    },
+    {
+      "type": "directory",
+      "oid": "7b6856865284e0baaabcf29e5d090a2acbcb9cd1",
+      "size": 0,
+      "path": "MEDI2BGE"
+    },
+    {
+      "type": "directory",
+      "oid": "0797466677d630e9bce8b739b6ecd48f0d214a78",
+      "size": 0,
+      "path": "Multi-CPR"
+    },
+    {
+      "type": "directory",
+      "oid": "a64c8e9e74eb0b8ee190836e99fd4a70a3daa472",
+      "size": 0,
+      "path": "OpenOrca"
+    },
+    {
+      "type": "directory",
+      "oid": "cb2b47eeb7c495a1cc277e1a4f1617636f95e777",
+      "size": 0,
+      "path": "PAQ_pairs"
+    },
+    {
+      "type": "directory",
+      "oid": "200ec5fafd0101a069461b1fcc859bd82721e227",
+      "size": 0,
+      "path": "PAWSX"
+    },
+    {
+      "type": "directory",
+      "oid": "9053bd4af8a01791bb2b0ddeff360b8191e3f0d3",
+      "size": 0,
+      "path": "PubMedQA"
+    },
+    {
+      "type": "directory",
+      "oid": "cacf2b7e06651cebe1f6d431c467e47353b4c31e",
+      "size": 0,
+      "path": "QBQTC"
+    },
+    {
+      "type": "directory",
+      "oid": "c5ec852be9a3bf70fb60f70d7946fd1458066f29",
+      "size": 0,
+      "path": "RefGPT"
+    },
+    {
+      "type": "directory",
+      "oid": "e3066f5c4203ff43d5b0de45e16a317e326c37b1",
+      "size": 0,
+      "path": "SearchQA"
+    },
+    {
+      "type": "directory",
+      "oid": "b2971042ec9636d28dbdd7774c67b6c634d71c09",
+      "size": 0,
+      "path": "SimCLUE"
+    },
+    {
+      "type": "directory",
+      "oid": "2a3e1e7fe1fb1acc337fd0684a5f1038d9c60375",
+      "size": 0,
+      "path": "T2Ranking"
+    },
+    {
+      "type": "directory",
+      "oid": "4015a510b5fbd4d7d2ab80b78b5a8152be32ddbc",
+      "size": 0,
+      "path": "THUCNews"
+    },
+    {
+      "type": "directory",
+      "oid": "2c372c337f2760c2036a01ab1a971c0f042adeaf",
+      "size": 0,
+      "path": "UMETRIP-QA"
+    },
+    {
+      "type": "directory",
+      "oid": "4ee075ca9f903cceeaf6eb30af536572375b0946",
+      "size": 0,
+      "path": "WebCPM"
+    },
+    {
+      "type": "directory",
+      "oid": "09f02a6b9a17b5fb1140fd1f4d88ea0cd0978a29",
+      "size": 0,
+      "path": "WikiAnswers"
+    },
+    {
+      "type": "directory",
+      "oid": "f59a7934e6732135e32451f505f4f72f37ca1444",
+      "size": 0,
+      "path": "arxiv_qa"
+    },
+    {
+      "type": "directory",
+      "oid": "906a767337009aab6e7a67ea558581ab34709f63",
+      "size": 0,
+      "path": "atec"
+    },
+    {
+      "type": "directory",
+      "oid": "26ce359f19b466061d902ece3caf5538990d3c10",
+      "size": 0,
+      "path": "aya_dataset"
+    },
+    {
+      "type": "directory",
+      "oid": "a90a0c1ffa9152a871fa3c3b438a252471525a6f",
+      "size": 0,
+      "path": "bq"
+    },
+    {
+      "type": "directory",
+      "oid": "f90da76c061a955c0d32521c81adeb8de515601d",
+      "size": 0,
+      "path": "cCOVID-News"
+    },
+    {
+      "type": "directory",
+      "oid": "1c18dc20b519a133bd647467846cc94a56953c58",
+      "size": 0,
+      "path": "cMedQA-V2.0"
+    },
+    {
+      "type": "directory",
+      "oid": "43c1c602aa92d3074ace72a6e23537274c794fda",
+      "size": 0,
+      "path": "ccnews"
+    },
+    {
+      "type": "directory",
+      "oid": "838ee7e8d601c82e4314f7432652d18d63d3fe10",
+      "size": 0,
+      "path": "classification_massive"
+    },
+    {
+      "type": "directory",
+      "oid": "cfe47aec1258f3e2815f55b07748c28ac6f7c33e",
+      "size": 0,
+      "path": "classification_massive_example_sym"
+    },
+    {
+      "type": "directory",
+      "oid": "e817193656f7a709893e33191bad59c45228ac36",
+      "size": 0,
+      "path": "clustering_massive"
+    },
+    {
+      "type": "directory",
+      "oid": "a36fb1fd1dee10bed4db50322da3cc3322caae6f",
+      "size": 0,
+      "path": "clustering_massive_example_sym"
+    },
+    {
+      "type": "directory",
+      "oid": "033920235587701b73b6223f7d6ceff6b07aa8b0",
+      "size": 0,
+      "path": "cmnli"
+    },
+    {
+      "type": "directory",
+      "oid": "4cf4a81337ff7216ef4531f94d5f50de9965f69e",
+      "size": 0,
+      "path": "cmrc2018"
+    },
+    {
+      "type": "directory",
+      "oid": "dc4a755d75c0e8a457171e1ee067549ad420d36c",
+      "size": 0,
+      "path": "contract-nli"
+    },
+    {
+      "type": "directory",
+      "oid": "46423acc8b09a02ecf7ce90c80c3492cc1c123d0",
+      "size": 0,
+      "path": "cord19_trec-covid"
+    },
+    {
+      "type": "directory",
+      "oid": "1290d243d3c860de15ee562b11c0ef521c8a3b72",
+      "size": 0,
+      "path": "cqa_massive"
+    },
+    {
+      "type": "directory",
+      "oid": "35b152374b23be29d848ec2f429084f825c09d62",
+      "size": 0,
+      "path": "csl"
+    },
+    {
+      "type": "directory",
+      "oid": "4a3004284dc207d6d90bff3a00ed42e6ee2fcdba",
+      "size": 0,
+      "path": "dbpedia-entity"
+    },
+    {
+      "type": "directory",
+      "oid": "f10291ab13c214bd2771961563aed834b026af65",
+      "size": 0,
+      "path": "dureader"
+    },
+    {
+      "type": "directory",
+      "oid": "5d80c3535e3cd05ddcbfbe76b0543707f7894d7d",
+      "size": 0,
+      "path": "dureader_mrc"
+    },
+    {
+      "type": "directory",
+      "oid": "cf162083e755babc71c1531b2ca3baff1af44aeb",
+      "size": 0,
+      "path": "esci"
+    },
+    {
+      "type": "directory",
+      "oid": "a4b678f239bf345945645723b000b6dcce4f587f",
+      "size": 0,
+      "path": "fever"
+    },
+    {
+      "type": "directory",
+      "oid": "baf08b5dae251d2a875f236101d31fadae478b2e",
+      "size": 0,
+      "path": "fiqa"
+    },
+    {
+      "type": "directory",
+      "oid": "958f2772eb56082bd558f7b677f26cb9649bd022",
+      "size": 0,
+      "path": "hotpot_qa"
+    },
+    {
+      "type": "directory",
+      "oid": "d4c9a7114bab2604ac8f057ad32dc439ee79133b",
+      "size": 0,
+      "path": "law-gpt"
+    },
+    {
+      "type": "directory",
+      "oid": "b24c05c4b3066306a6abbbf1a424b1dc583bc546",
+      "size": 0,
+      "path": "lawzhidao"
+    },
+    {
+      "type": "directory",
+      "oid": "25b983dcbe3d94618d36c50a1c17124bfdf4abcc",
+      "size": 0,
+      "path": "lima-chinese"
+    },
+    {
+      "type": "directory",
+      "oid": "14fe394f861ce69d36263f28acd1bbbadb9a0853",
+      "size": 0,
+      "path": "llm_retrieval_long_long"
+    },
+    {
+      "type": "directory",
+      "oid": "ae290fcc0ac86d36ba433b4e7fe037ca56eff185",
+      "size": 0,
+      "path": "llm_retrieval_long_short"
+    },
+    {
+      "type": "directory",
+      "oid": "c43d69cc5a9a5dc6d4f322933a7429abdf48cbc3",
+      "size": 0,
+      "path": "llm_retrieval_short_long"
+    },
+    {
+      "type": "directory",
+      "oid": "cdc3fc239d0c7c2122c7ad3f5aa9456f8cfe8a94",
+      "size": 0,
+      "path": "llm_retrieval_short_short"
+    },
+    {
+      "type": "directory",
+      "oid": "ab081c92dafd36ab0a8edb832464f2bc2cc69253",
+      "size": 0,
+      "path": "llm_sts_bitext_retrieval"
+    },
+    {
+      "type": "directory",
+      "oid": "5e40bc488ac4a8e46144c396300a8ae3861ee3ee",
+      "size": 0,
+      "path": "llm_sts_monolingual"
+    },
+    {
+      "type": "directory",
+      "oid": "d27670cc3a5f74923d3096bb2518642e72027713",
+      "size": 0,
+      "path": "miracl"
+    },
+    {
+      "type": "directory",
+      "oid": "7a58cec040549662453be5d6a446bcfbea969ee0",
+      "size": 0,
+      "path": "mldr"
+    },
+    {
+      "type": "directory",
+      "oid": "823e48107958e7e587041a95936b130876878555",
+      "size": 0,
+      "path": "mmarco-chinese"
+    },
+    {
+      "type": "directory",
+      "oid": "f4824228b0d7c5d1ad16bdbadf316e01bd7341d2",
+      "size": 0,
+      "path": "mnli"
+    },
+    {
+      "type": "directory",
+      "oid": "f03f6494ea02ade1b51335990dea4faa52cbccf9",
+      "size": 0,
+      "path": "mr-tydi"
+    },
+    {
+      "type": "directory",
+      "oid": "9edbe0621ffb726a123d13c8ebf9487f5465547e",
+      "size": 0,
+      "path": "msmarco-passage"
+    },
+    {
+      "type": "directory",
+      "oid": "584ddf0e4e077b57649a5a0f0831c5ea9cd42c0c",
+      "size": 0,
+      "path": "msmarco-v2"
+    },
+    {
+      "type": "directory",
+      "oid": "d55a09b2b3c153cd6f8ef6ef740af5414978c863",
+      "size": 0,
+      "path": "nfcorpus"
+    },
+    {
+      "type": "directory",
+      "oid": "b628f36e98339629c3f2279849195df650db4d28",
+      "size": 0,
+      "path": "nli_zh"
+    },
+    {
+      "type": "directory",
+      "oid": "38869a37c8d7f3df02bdab50093e5a2e50f324e2",
+      "size": 0,
+      "path": "nllb"
+    },
+    {
+      "type": "directory",
+      "oid": "c97b1ea98cf5641e14adf53c2e56d3bcf5bed11c",
+      "size": 0,
+      "path": "ocnli"
+    },
+    {
+      "type": "directory",
+      "oid": "8a0b6c7e24cea247abc85226cc9c778488cf9bf9",
+      "size": 0,
+      "path": "paws-x-all"
+    },
+    {
+      "type": "directory",
+      "oid": "54a0c8e1ffaa8e387ffa3c5e95153c1dab6f1e61",
+      "size": 0,
+      "path": "quora"
+    },
+    {
+      "type": "directory",
+      "oid": "718e47d1fd5f2f3315e7957a05ddf7936033f650",
+      "size": 0,
+      "path": "rag-dataset-12000"
+    },
+    {
+      "type": "directory",
+      "oid": "e5c028d4697271a8590b11518ab164c11fc2f8ff",
+      "size": 0,
+      "path": "retrieval_data_llm_infgrad"
+    },
+    {
+      "type": "directory",
+      "oid": "432ca251ca78aae161a925d118cf678b8498dcf9",
+      "size": 0,
+      "path": "scifact"
+    },
+    {
+      "type": "directory",
+      "oid": "ba3ccb7e248f3e14523c249bf5a3adbd388b9122",
+      "size": 0,
+      "path": "simcse_sup_nli"
+    },
+    {
+      "type": "directory",
+      "oid": "20fd4ee05362b47334ced7a8d4cf0293a21839ef",
+      "size": 0,
+      "path": "snli"
+    },
+    {
+      "type": "directory",
+      "oid": "f636cc322d89a130106d7eed785bced081957a41",
+      "size": 0,
+      "path": "squad_v2"
+    },
+    {
+      "type": "directory",
+      "oid": "0410c57782fd3f3a3ffc507674efa491c249deb4",
+      "size": 0,
+      "path": "triviaqa"
+    },
+    {
+      "type": "directory",
+      "oid": "a42f6c662671669bf32692cfb20946e55ee1a4cb",
+      "size": 0,
+      "path": "webgpt_comparisons"
+    },
+    {
+      "type": "directory",
+      "oid": "b038e89a7a2546c089497eebd2619b14a7702639",
+      "size": 0,
+      "path": "webqa"
+    },
+    {
+      "type": "directory",
+      "oid": "3a9a74df754f81370033777f2ba18fade2fb280f",
+      "size": 0,
+      "path": "wikipedia-nq"
+    },
+    {
+      "type": "directory",
+      "oid": "30aef9a3a1e99d1e6590b00978dc50064eb0dee8",
+      "size": 0,
+      "path": "xnli_zh"
+    },
+    {
+      "type": "directory",
+      "oid": "9ca73dec5c723839058dd9583b18b7628e1e60fb",
+      "size": 0,
+      "path": "yahoo-answers"
+    },
+    {
+      "type": "file",
+      "oid": "28a8b9ed0167d665e6677a9f893e0c2141800e03",
+      "size": 2508,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "ff6ea4d2a69d989b34e411dfa9ac2fa2152ca6da",
+      "size": 355814,
+      "lfs": {
+        "oid": "2a5c42142a45d0e05366db54ac88dd372226d4dd567ad56125a56ae6326ffdbb",
+        "size": 355814,
+        "pointerSize": 131
+      },
+      "xetHash": "4132839c032e2835083a0b6e82e3c71fd6423bd54b678029910cabbfc933684d",
+      "path": "AFQMC/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "04c120ee2f6daeb19a38ee1e86220611584cb60a",
+      "size": 26720869,
+      "lfs": {
+        "oid": "00cb841dffa94bba67e6633f5cae4907cc0bf0789a09c753d169fdb087bd960d",
+        "size": 26720869,
+        "pointerSize": 133
+      },
+      "xetHash": "519abdc07d2f77094063a4c5374160570bdbda42c53f530a2121b605b5addaae",
+      "path": "AdvertiseGen/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "3efa2cbdea34fcedda2aedd1a5831478657a9832",
+      "size": 3089350,
+      "lfs": {
+        "oid": "4881c8801f33c5cdb0d2d8a3e191425e0e6af4872e5b7daa62a71e29a919fcf9",
+        "size": 3089350,
+        "pointerSize": 132
+      },
+      "xetHash": "7d6c821096783a28b1abbf82202c15cc2213644af2c559c4152bf63233721eba",
+      "path": "CAIL2019-SCM/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "40d75adc963b59dcd87be2579444ffafe34c2191",
+      "size": 12754818,
+      "lfs": {
+        "oid": "e937a314472eeb9d5db8d4dbb679bcc48845aa7a00bd68c2d036d6aad340e0f6",
+        "size": 12754818,
+        "pointerSize": 133
+      },
+      "xetHash": "3353f0a0daeed65ecd59649411ac21798df452b8260626706bcd825afa330539",
+      "path": "CHEF/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "7a4bf0b1456257116db0e59b266a740eadd2098e",
+      "size": 171905,
+      "lfs": {
+        "oid": "7589dc385c728cc6211797801acd16cfeca4270545ca1846371620e5c9a16bf4",
+        "size": 171905,
+        "pointerSize": 131
+      },
+      "xetHash": "a185e07663c74bc93b960c2b96b567747336fe2886d8154a0374eb5bb2697c11",
+      "path": "CINLID/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5a79fe622720623ad254ca038485118fbd1ef74c",
+      "size": 39430692,
+      "lfs": {
+        "oid": "fafd0a782c6b8970aac044215fd06d887868dd7776b2a22e336b3394f5fd0e15",
+        "size": 39430692,
+        "pointerSize": 133
+      },
+      "xetHash": "f87ca38e2558e9b42077b99f74a24dd476df539ef7e199c8879840aaee736eff",
+      "path": "ChatMed_Consult_Dataset/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "ec2146d001136dd3d7fa46ed303b14f12a06c56c",
+      "size": 228577,
+      "lfs": {
+        "oid": "e9d5fd4b69f00703ae6bf670eb3de4b62a523c7b1d8ca895b9c94ed91ab8f6c1",
+        "size": 228577,
+        "pointerSize": 131
+      },
+      "xetHash": "09630063021148b481b0c0bfc3512885d75321f284464afdf365eec53c99b057",
+      "path": "ChineseSTS/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6c7d1ed1cdc940ca2d5bb4e114df9134a79b4661",
+      "size": 317971167,
+      "lfs": {
+        "oid": "b8d3fad2e6312acd6f1b0f20ba9cdb75e864f43e2c84bf644902ea7e999dba97",
+        "size": 317971167,
+        "pointerSize": 134
+      },
+      "xetHash": "ca5bb9ec803e92e14adb11628ab24870435007326e0cd2f842026dc7136b6e44",
+      "path": "CodeFeedback/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "b91ef3b2b11b32f90674d08c3d86bb89a89ab7ff",
+      "size": 34824824,
+      "lfs": {
+        "oid": "942c5bdeebd69af34eb5a9a003ca71db4a0598fd226f468a5f92d7795e06b89d",
+        "size": 34824824,
+        "pointerSize": 133
+      },
+      "xetHash": "e490709f7c5a4e5e333e4554ac4ae92b990b01e4ec03ff6f3061a64b41bc84f1",
+      "path": "DRCD/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "afca46a633ff8bf670d5fe907c753f7368b6f47c",
+      "size": 245533001,
+      "lfs": {
+        "oid": "eac9bf223c8f0f47d4a21f28fe800665ee81e31b569bee9fc6b318a40d0ba8c0",
+        "size": 245533001,
+        "pointerSize": 134
+      },
+      "xetHash": "5701cd588dceea7b7c6c8a813406851a8091cf81e3777f53560148900f05f163",
+      "path": "ELI5_custom/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "83d1f320cdd7a3cc8238a0dc329349220a582d70",
+      "size": 16673163,
+      "lfs": {
+        "oid": "0aaa551267f6666a27cf8aed7a62dc9ddbe21ea8b7ba4bd4e3f958f57cbd3564",
+        "size": 16673163,
+        "pointerSize": 133
+      },
+      "xetHash": "de29237631a0df5f68f1ec6ca86a03e667dab37634800d8c06b397cb3eaa2216",
+      "path": "Expertqa/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "15c384d02e6082e2252f5508f28e6f595c389336",
+      "size": 78579916,
+      "lfs": {
+        "oid": "32177a438c2e82bb8b3cab8706bb637f9622486bb2698b925983b0270f36574f",
+        "size": 78579916,
+        "pointerSize": 133
+      },
+      "xetHash": "35d594e7a7c5780c1746838a894c891e1c1ec3b9933cb90ffc18124349674cc5",
+      "path": "GooAQ/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "fc9e464c18472041f9808d62d84a036485e63e3b",
+      "size": 37564106,
+      "lfs": {
+        "oid": "dbf67816315d8bfaef43d8d927f86a7e04f15dd3eed6628b233fe671b3fab14a",
+        "size": 37564106,
+        "pointerSize": 133
+      },
+      "xetHash": "28da27eb14ebb298c0678e114494e46fd122f57756f6aedb4d6739a7d88637c9",
+      "path": "LCSTS/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "14e7712a69ce914ee97ee145b4e7f771d2cea830",
+      "size": 201512694,
+      "lfs": {
+        "oid": "fb9ecc79c56324f0796d0d6d91dba18ddceefaeecb4fd92d05fe0a7b1fcded11",
+        "size": 201512694,
+        "pointerSize": 134
+      },
+      "xetHash": "3fc53c163e7f58f8ffd39e42a5e3240d0efb9e7b43d14fdab16174f61b8494b4",
+      "path": "MEDI2BGE/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "afb031349af78eddb1a31de80010a4596ca92afe",
+      "size": 81533907,
+      "lfs": {
+        "oid": "147ff0bf9cfc55c2d4af808098f117db8cd933ea51fc861a9ff3d98e502a69e4",
+        "size": 81533907,
+        "pointerSize": 133
+      },
+      "xetHash": "088916d735b3ed2d59671e634a8b544844eae62dd77e4e207b9b3f8e9b027635",
+      "path": "Multi-CPR/train-00000-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6796088aa2f1a699c1e4390870e9495ea3806fde",
+      "size": 143589207,
+      "lfs": {
+        "oid": "f42e9dace762dc9c522beca78e4140963d218f8a6ff24be1e60c32df004d3c11",
+        "size": 143589207,
+        "pointerSize": 134
+      },
+      "xetHash": "929cc268508f0715d310321003686c6e86a3f8a2f1d1876c7600154efd2aedf0",
+      "path": "Multi-CPR/train-00001-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6d5be22ee30e7313521531517395be6d42d9894a",
+      "size": 31103946,
+      "lfs": {
+        "oid": "823d84fdf6839b30c988dad88e56643b7036c744e2808028f8fe56c1320943b6",
+        "size": 31103946,
+        "pointerSize": 133
+      },
+      "xetHash": "cb61b904d587cc76520ccb96eb7d569e796622802ee6b1ba17570c895b19afc6",
+      "path": "Multi-CPR/train-00002-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "0d1e2883343992ac577abaa1e6deb7b3e9ef638e",
+      "size": 134818673,
+      "lfs": {
+        "oid": "3284dc518b85ba39fefc2362d0cb3026e1c472fa550487c42e77a01961bd6c44",
+        "size": 134818673,
+        "pointerSize": 134
+      },
+      "xetHash": "ebfedf591fbb6dfa54aee5fc2dd143c3edbf30e9be695ed835909bb6c3793163",
+      "path": "OpenOrca/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "e9f5eb1b2e508b3a24b83f0a567c112e21a0a721",
+      "size": 167200879,
+      "lfs": {
+        "oid": "b3581a0c05c41cb712a5b4f23b2560e79f52fb4419b53a7759169548b4774ea9",
+        "size": 167200879,
+        "pointerSize": 134
+      },
+      "xetHash": "6cd3cc03d23f4848a4db0f36eada6ea2757a81ce56509f327d5068087c4bf5a0",
+      "path": "PAQ_pairs/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "b26a6b1c6a53ffe7b0276a9d5742cc34e2347b9b",
+      "size": 13417274,
+      "lfs": {
+        "oid": "0e268ec7c0c5eafd46b20dd99709b0019f62f9b1561f51509b4e11404d0904b6",
+        "size": 13417274,
+        "pointerSize": 133
+      },
+      "xetHash": "f75f169dbeb5045968cde282eded6f12b17891bd7ba114fe55833f5624b62b86",
+      "path": "PAWSX/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "8e4d087a5984bdaa56e3395fbc8738704eaa9c30",
+      "size": 498688476,
+      "lfs": {
+        "oid": "6c6d5c0f2cd2b50abbf26da1e540c08c7c1198a7749bc24128b33a1ec686ca6e",
+        "size": 498688476,
+        "pointerSize": 134
+      },
+      "xetHash": "b43c422cb0c5539002920f023235d79fc59c354420fff58ae5ee28a2ccbb25a8",
+      "path": "PubMedQA/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c6f2b43bc67eeb091292bb06115e79fb2d3dd116",
+      "size": 18606955,
+      "lfs": {
+        "oid": "3ae5460d5db8a10570fad1fd8230af3acabb57f10261688614792765621c7a7e",
+        "size": 18606955,
+        "pointerSize": 133
+      },
+      "xetHash": "106719066c5bec30433a1051b4c382331afe510c16c881320a5cbc753d552c0a",
+      "path": "QBQTC/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "280b86fc119758bb98fdb7c9b634fbe4979d341c",
+      "size": 13554,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "332509c0a6f9bc96a50c813cbaad3899fbae8c4d",
+      "size": 657074905,
+      "lfs": {
+        "oid": "ff1008b297435b5078c9fc450dda1899b3599cbb3056888b4e194ea3548ed5c0",
+        "size": 657074905,
+        "pointerSize": 134
+      },
+      "xetHash": "0e68ed4e29dc0870113e0d4adc66eef82a847e8edec8b6d2e3826d2ef07bb5ba",
+      "path": "RefGPT/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5480c9f9109e5b6e982d74c081fb84c8e94a59f5",
+      "size": 79960869,
+      "lfs": {
+        "oid": "f23ee38758fdd5d0f728cf5b55b3c0a0bd87cf881e4057cbf7080d7078302f65",
+        "size": 79960869,
+        "pointerSize": 133
+      },
+      "xetHash": "97685aaaee6effc63df7d2d0344a8035cf90fd0651faa79aa6ef7eaff6405197",
+      "path": "SearchQA/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a9a21a023f5e83b919b1e7ab453ed1c4c5f5fa5e",
+      "size": 29593858,
+      "lfs": {
+        "oid": "c48bc5e7563a97e078fa8fb2f3cb5780ff204af00a4167388db260caca8a85a2",
+        "size": 29593858,
+        "pointerSize": 133
+      },
+      "xetHash": "ec74d92e63f7921159ee0c0fb4be68dabb868864a743512b362a7d94bc0b74c0",
+      "path": "SimCLUE/train-00000-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6d64ddc9d0940e75836972b5711be6b6a5e5ed1e",
+      "size": 29780690,
+      "lfs": {
+        "oid": "f2911c7cfba49a12e3e8e446b447c31cd6a988568da9e29c734ced4071f87d1d",
+        "size": 29780690,
+        "pointerSize": 133
+      },
+      "xetHash": "479f5494173e68dcec21c90e84b1dab69493ff281ad3d620808c9c8e4304f8a5",
+      "path": "SimCLUE/train-00001-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "243c12f99de69c307189452e20bad0f4f13e3fb3",
+      "size": 26686146,
+      "lfs": {
+        "oid": "005834f43f3e4f6259f8f0b94f110ce7815881a12ac18f4488bb7bb6d3d73197",
+        "size": 26686146,
+        "pointerSize": 133
+      },
+      "xetHash": "553d4071ebe9f4666570bc1e37beb2e478e613f16c7ffa20d6072a81a90d983e",
+      "path": "SimCLUE/train-00002-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c6edb96c26fdcedd2210470a980134f1c40ef4ad",
+      "size": 733178257,
+      "lfs": {
+        "oid": "ca97b43482faa25e47ea9cd52f13adc529b1d1b3f3c4b4f3fb9cc9eaa149d467",
+        "size": 733178257,
+        "pointerSize": 134
+      },
+      "xetHash": "abcd3eb55967eb09154fac39f49658e5f1022e96ac19cf45d08f4323d8f98ddf",
+      "path": "T2Ranking/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "e22a2ced07b783d6d366a0ee1cd894a9e4e2c4f6",
+      "size": 655784598,
+      "lfs": {
+        "oid": "7e9f9e94c17a66a6f8955b7ad8af65c23158dfb0eb5ba3df901cf4e17e346608",
+        "size": 655784598,
+        "pointerSize": 134
+      },
+      "xetHash": "d26d66036334ae885e2d5db990b9d648a32b5c22149aeb50f625bb4fea9dfd35",
+      "path": "T2Ranking/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "e96d96f0fe6784483afea9facd21f616df772b93",
+      "size": 293063363,
+      "lfs": {
+        "oid": "0221b69da83a5b1c27b8f897942ba8f905465328b8013c47bad254665ef5e2fe",
+        "size": 293063363,
+        "pointerSize": 134
+      },
+      "xetHash": "f4f8ccb6d7702132ed157b4a96a265651b8b0a14cb5a65d338dd01850e8adba0",
+      "path": "THUCNews/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "16f5adc7d0a6a3a66f9dba5e72190e3f0e8de2e8",
+      "size": 250721,
+      "lfs": {
+        "oid": "7031832b0cab648cc22f6e8c7335f283cc40131b9d4f0402c5e4d427e8173aa1",
+        "size": 250721,
+        "pointerSize": 131
+      },
+      "xetHash": "8c8747a2c40d0a07f754c34fb42513a8026fd712f4386eae61eeb9922e115e43",
+      "path": "UMETRIP-QA/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "ab5a45ac329bfd65c1ef8316f95fa8b7aff0b331",
+      "size": 7395068,
+      "lfs": {
+        "oid": "8b5ea8d1ec8daf081d0e877759b2ee797b4248e4ae277728fcf0a9cc0bdc9106",
+        "size": 7395068,
+        "pointerSize": 132
+      },
+      "xetHash": "604839636a2d058a008781611dcbbad8e3430cf958f0b7232bbdc05816e8812d",
+      "path": "WebCPM/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "344c6676d2f081d2f73fbd899d5c3c5dc8699703",
+      "size": 15330898,
+      "lfs": {
+        "oid": "1175297bc7a7c26abf7487e46fbd823a7fcf18cd68f9cdc4346bcbaefc36b44d",
+        "size": 15330898,
+        "pointerSize": 133
+      },
+      "xetHash": "2a0d2385ddc224b3226fb2b1d68c00236cbb2822e95f6fe1d449a48646d8ea3a",
+      "path": "WikiAnswers/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5afebaa909133b8f749d4cfb74f913c4d6a5dbea",
+      "size": 379948926,
+      "lfs": {
+        "oid": "4e13b4a84c98334ec764d18f92d3f12b588eb74723fca8d6f285cc99f193e72f",
+        "size": 379948926,
+        "pointerSize": 134
+      },
+      "xetHash": "e0bb7ead837aa67eac9dc20298d16ac9865fda4ed94d32543a5a21379686a255",
+      "path": "arxiv_qa/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "3b3529cac84c7b71346b7a9ff2fe0e2a969c874e",
+      "size": 2633485,
+      "lfs": {
+        "oid": "e502e5f0ef88c0a4ec6736ec2f84a1562dfb6113335ac097fc96a82dc66a545c",
+        "size": 2633485,
+        "pointerSize": 132
+      },
+      "xetHash": "10a3340206de13634ea52fd2a6f9091f130e45d15471065d2cd33cce4a88e166",
+      "path": "atec/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "73110e36de0b7a9559416c3adb971dade3e27792",
+      "size": 282675593,
+      "lfs": {
+        "oid": "e278d22acba289e013f99088d46326d9025bf352fb38304d875c85d96eaaf381",
+        "size": 282675593,
+        "pointerSize": 134
+      },
+      "xetHash": "2c1c9725fb8fda08f4f7ac68ba8967df24166dd3a44062fd63020d8ba9469db4",
+      "path": "aya_dataset/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a96f0cb2193602c4cfb74240ae2de373cd9ed037",
+      "size": 2047966,
+      "lfs": {
+        "oid": "254d1ff645deea8ec005b75d1bdb665417cc7625ae7f0aaae1afd80dc23dae44",
+        "size": 2047966,
+        "pointerSize": 132
+      },
+      "xetHash": "3d30aacb3a8736d99462b66458be971d154de028e605a76700f22318cabf5cbe",
+      "path": "bq/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "06c2f2a09674d400408c7e2e29a3dd5083b1c082",
+      "size": 93707308,
+      "lfs": {
+        "oid": "d7bd31e3c849fba529e5d01a582fe6713d73d081746052131fd71d1cb168d1a7",
+        "size": 93707308,
+        "pointerSize": 133
+      },
+      "xetHash": "808e1901ede742cf8947d65cac40e7ecba3208b9f2e7848f445b453cc130197a",
+      "path": "cCOVID-News/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a0eedb52257ae33be967da469a7e512aade57187",
+      "size": 127058570,
+      "lfs": {
+        "oid": "c9cd9696cc796e9663d9d36d9ee2bbe2997a26dd3ff5f71fcbcc140bc7f67c5b",
+        "size": 127058570,
+        "pointerSize": 134
+      },
+      "xetHash": "20509f05f636c4a36e38190f6097ca65ad67112deee08bc3e1405904c12a7648",
+      "path": "cMedQA-V2.0/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "7d046d89490136dacb2ccff1c85c8dfa1c8bc831",
+      "size": 333630495,
+      "lfs": {
+        "oid": "64a0cda0cc22a581f26309f24c73aa89150191c4f2c91ec8f501ecb3aa246701",
+        "size": 333630495,
+        "pointerSize": 134
+      },
+      "xetHash": "c05c840b9596013a0c6b34090ce704fc245ebbc0cb785baf633c96cedc69b36f",
+      "path": "ccnews/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5ffe2736cf0b4a6b38ea5cb38a0a9a3bebf30926",
+      "size": 29643745,
+      "lfs": {
+        "oid": "8a5a5b93a0c279e360abce4878e6bf64a1a1fa0da752a0d1fad47126e4e27026",
+        "size": 29643745,
+        "pointerSize": 133
+      },
+      "xetHash": "920534e05eb25358392e6a15eb412fef82e3bc5110be4c931df04fc9661a64dd",
+      "path": "classification_massive/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "edf80fb0bab92206ca44658c67506d6a62bb6317",
+      "size": 4965026,
+      "lfs": {
+        "oid": "620fb633c9f133ff3146678812e66b69b410e31a22bb12e214d01dce7d6fe81c",
+        "size": 4965026,
+        "pointerSize": 132
+      },
+      "xetHash": "457c317fae1dce9072517d3291c18f65d1116884443987e627a24d931576960f",
+      "path": "classification_massive/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c8fd07263408d2b4e5e26d9ec7dd095bfbfcbca6",
+      "size": 254144389,
+      "lfs": {
+        "oid": "f669164cc3ef60f26c77b8a0852d2091ea28f623fa4ff7611f36d2469ac5337d",
+        "size": 254144389,
+        "pointerSize": 134
+      },
+      "xetHash": "62516999a9ac5e2b2d274f5252cd41f1c9ffb78c29d7d9ba18955e8257274ca7",
+      "path": "classification_massive_example_sym/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "1ccf3892aec1f93e68a3187e7fafbba69a11720f",
+      "size": 36715825,
+      "lfs": {
+        "oid": "c9496fc2d858220be2e350b611582995b5a08c0ec8104bad097007a64c5042dc",
+        "size": 36715825,
+        "pointerSize": 133
+      },
+      "xetHash": "f1b8d4a2155e87cb247f6bcb23584d48cd8a08f43247d564dcc978c0d88798f4",
+      "path": "classification_massive_example_sym/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "62d2b1f8d1adbd869f27ab448a457f013e8b6d48",
+      "size": 23042493,
+      "lfs": {
+        "oid": "8302450c68a51d0f37dd4b6794d0f5c059fd656748f533149c8b35e373ea84dc",
+        "size": 23042493,
+        "pointerSize": 133
+      },
+      "xetHash": "92d2860809aca7ece5953b47d6e9c145562bc31076fcb42231090a79cbb2b7de",
+      "path": "clustering_massive/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5269d76fa9d9cdf763db990da5b24f9fb3e48a31",
+      "size": 29348702,
+      "lfs": {
+        "oid": "6a5488f516703ff7d5ece4ed62fc8e5700cd6994b88e7d1d29c5b333cbb857d6",
+        "size": 29348702,
+        "pointerSize": 133
+      },
+      "xetHash": "00c2abbdd1f907d95d08965d0cddb3f5b7fdb83011b7022c01d58e61af76f04c",
+      "path": "clustering_massive/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "779769e19f7dd169add51d6ff199e9add4aa2a07",
+      "size": 284606803,
+      "lfs": {
+        "oid": "6834a7224edbedab761d9c37d9a0d6afa9aea00cd17753374e6f492767ee450c",
+        "size": 284606803,
+        "pointerSize": 134
+      },
+      "xetHash": "5b2c6d0bf8abb000cf95ec0162b0ef667f40b8c9bddeca3f0a3c4924a7f3fcad",
+      "path": "clustering_massive_example_sym/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "e863e872ed3aa16eb1a58399d1c685dff70468f1",
+      "size": 181877389,
+      "lfs": {
+        "oid": "8817c4e14807a2ee98b9900c33283ceb73d17af5b882558b363a6ac2dc7f0aae",
+        "size": 181877389,
+        "pointerSize": 134
+      },
+      "xetHash": "7ceefb1a922af3deb6bb8f3173572ef9a09e04a0fcbd38b3988515aecf901983",
+      "path": "clustering_massive_example_sym/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "cd25965685c96781a27f2b1f1e57abc5a1833fe2",
+      "size": 39859489,
+      "lfs": {
+        "oid": "8a5372d6c8be59b7e2ecfead140099068161b2171b2349e801acecba75c7bd26",
+        "size": 39859489,
+        "pointerSize": 133
+      },
+      "xetHash": "930f2a967f8f7de4d182f92e1a6da41098bc0b4f43aba2ae2fa54777970e8d93",
+      "path": "cmnli/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "d344e008e4e40062a4df101d622379db597eca1b",
+      "size": 7574110,
+      "lfs": {
+        "oid": "ce008f4f68c20b812180219beb9057779e159190b3ec1d26805cab0f8b92ec30",
+        "size": 7574110,
+        "pointerSize": 132
+      },
+      "xetHash": "a4bed1763f13e1ff11daa19fc84856829d49bee94a7a57972a1f00640fbadcd3",
+      "path": "cmnli/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "853c8fff564aba434feb2839839ecf5b76a8ad3d",
+      "size": 78232744,
+      "lfs": {
+        "oid": "db09da320d49a6fa383c2fe43a32c61a17e3ad5e2bc82c9ebcc9186969fae298",
+        "size": 78232744,
+        "pointerSize": 133
+      },
+      "xetHash": "b2821235d076b3a11907dce1a0f1b894bded9f45ca08acbac59fee5576d5ca63",
+      "path": "cmrc2018/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "19fcc4e12883ccfba288351a652a9d32a1b6bb58",
+      "size": 340102,
+      "lfs": {
+        "oid": "833a5bd6ede430bfe9d17618f424cf0725a4be374417976b0f28e48856138e10",
+        "size": 340102,
+        "pointerSize": 131
+      },
+      "xetHash": "a569b100032923c0df197c8ccfb01eb6939cce007ca81d71a92e19aeecdd7ad8",
+      "path": "contract-nli/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "390d581104cebf1cb0a9079f05fe9ebc785e121f",
+      "size": 315286838,
+      "lfs": {
+        "oid": "52c35941213835f06a54ace5c067bd9835f07959b73b38dc8c70c642711cd569",
+        "size": 315286838,
+        "pointerSize": 134
+      },
+      "xetHash": "a58f51a836007dad3968690a67135e5f110c55bfbad6a14101bc10ea3e9dcf43",
+      "path": "cord19_trec-covid/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c556dafbe13820089b9fc362f2ef78b4ada4393c",
+      "size": 92329621,
+      "lfs": {
+        "oid": "ee81a9967c97e97cd7b2d535a241ce89047022a4c6b9f7aba7d3a9c4a7d05cff",
+        "size": 92329621,
+        "pointerSize": 133
+      },
+      "xetHash": "e2b212e3ca0fc371d782516be308313b17dab40e1f0d59647860de1f20d599de",
+      "path": "cqa_massive/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a6a667708ceef47bb1a028ba35e4a598f0705f05",
+      "size": 63410288,
+      "lfs": {
+        "oid": "d21313cb959e779527d89552b1c36c0cd9e248e743a2d83f1bb6930b16868ac5",
+        "size": 63410288,
+        "pointerSize": 133
+      },
+      "xetHash": "cf3095d6a287a36e3c02c2a2fec9ed5e334d637d96e93c0740fb89449cbb30d3",
+      "path": "csl/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "344a3829a7fe38098e656c812d0071401bb0091f",
+      "size": 161017136,
+      "lfs": {
+        "oid": "2e6db3f273204f6ee55649e440872947d811b5af829c0732e12a5fcdc0b49d35",
+        "size": 161017136,
+        "pointerSize": 134
+      },
+      "xetHash": "c8d97e040e8c4c2424610601927fd2747d52c2459fcfdbb68a7c0a9df646aa95",
+      "path": "dbpedia-entity/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "79ee96e54fb206890cbc480c1c765a6ae296e40a",
+      "size": 408202534,
+      "lfs": {
+        "oid": "8275aa84e769d2f05aae349a6e9d5cbc1002fbe489df911e2fbebe29f92ab392",
+        "size": 408202534,
+        "pointerSize": 134
+      },
+      "xetHash": "c294b64a0ec831ce995e72c281b28ce6c67c6df1120c0163bbf5d22b661595e1",
+      "path": "dureader/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "60ab6e8d15dcae7008e1a7365df45941d9a4cb24",
+      "size": 306138658,
+      "lfs": {
+        "oid": "371a079f208a9072c2c45ed695cff816ada07eb649203d1a19d84e055535ac51",
+        "size": 306138658,
+        "pointerSize": 134
+      },
+      "xetHash": "744654cab6a25303fc789ea73dd318fbf77bf0a60ba64d0b3c10a11844733f05",
+      "path": "dureader_mrc/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c61a3543b386b8f0ea27e09d0e8d43673ded7766",
+      "size": 261739691,
+      "lfs": {
+        "oid": "d75b975788fe6fe091c9d901928b275f63bc6ddc07459b0f4721d5233b0d9223",
+        "size": 261739691,
+        "pointerSize": 134
+      },
+      "xetHash": "1181a46729c2a9531c65bd40f64c8ed7e4ee54b57c228bad5e2fa8afc30a2004",
+      "path": "esci/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "25cc424b02a7b222e0534588d83d8d6cbee56383",
+      "size": 750781097,
+      "lfs": {
+        "oid": "0f45ea96bacfb4ce7de85e4e55d95e40af45587fa7529b0cae4ea37790df9fba",
+        "size": 750781097,
+        "pointerSize": 134
+      },
+      "xetHash": "3f4bf59a58f95d900ef87a991f41054faf07c4cb8ad950f0a148e77285fd02f6",
+      "path": "fever/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5f26d269ce9ff375d903f86a14ac5f96234cd824",
+      "size": 27931811,
+      "lfs": {
+        "oid": "ffcf7d833d2d87058f07a0f12e42ae74e0b3040802f367fdbc1ef9920d2f49c3",
+        "size": 27931811,
+        "pointerSize": 133
+      },
+      "xetHash": "b1bcf94812df7b1aaab8f83066153ad5255d5008ae11c81bec07361ac382a3cd",
+      "path": "fiqa/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "2de44208730d0dfda5e739477bd6d59b6fae1d91",
+      "size": 220736708,
+      "lfs": {
+        "oid": "d15c578328f766413584314b4c7ee604d6f7722430b40c4e253328e5169172a9",
+        "size": 220736708,
+        "pointerSize": 134
+      },
+      "xetHash": "235ae559c50aad20a98a9deeec0f460d3b8da28fa318220a12bdbfdd39860cfd",
+      "path": "hotpot_qa/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a2f15881f5ca83979dabbcf9120f03e93a5d2f35",
+      "size": 110845413,
+      "lfs": {
+        "oid": "42399bc1e2209313408079e7c3330ea5965d50fb66c6c73f8a3eb0ee2f70bdf5",
+        "size": 110845413,
+        "pointerSize": 134
+      },
+      "xetHash": "b5763f94d6cb4e47cacc5dca674e1bee7a9a5fd637918e613c78d8e0588404d0",
+      "path": "hotpot_qa/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "73b9a3cc98a8a514788a2a5053bba2cba5680ad0",
+      "size": 1808861,
+      "lfs": {
+        "oid": "d3d0e2581823dc40a5a8e0301027d637f7efb0331b5218ba5b12bfee5a403498",
+        "size": 1808861,
+        "pointerSize": 132
+      },
+      "xetHash": "a6cbfe4224e12e19b107cc4df90cc748f5304bc1ea8c80982e983915354a4f5e",
+      "path": "law-gpt/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "b03e2b66d9605249fc96302554a23de1ac21659e",
+      "size": 24835089,
+      "lfs": {
+        "oid": "e0965230f3eea6dc8f84d1c56f52405b3073bb847d0524809465afe5309f3a1e",
+        "size": 24835089,
+        "pointerSize": 133
+      },
+      "xetHash": "75bbfd91edadda38b073c13482bc97f1b07702859a7d038a9e0ba288df3ab3ea",
+      "path": "lawzhidao/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "836fbf06c2d381ab53563cddcb1356617ab7c6c3",
+      "size": 21320957,
+      "lfs": {
+        "oid": "c9eae0c02ef147286e36c6d4764c980edf54f6441fb19769ef0eaedaf294c6d5",
+        "size": 21320957,
+        "pointerSize": 133
+      },
+      "xetHash": "f191555979f385fa7d0e068dc9d6b513aae30feb555f15efb56c917bc4500d0c",
+      "path": "lima-chinese/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a577ec2d4919431a65c638b4d3f376573d05dc03",
+      "size": 626009877,
+      "lfs": {
+        "oid": "eda25dd0413bce522df55efe34956a4e297def4fa74e97a052b92fa601244d89",
+        "size": 626009877,
+        "pointerSize": 134
+      },
+      "xetHash": "c70c5c17ab3ecdb87112ec951fe18c11689d36161048586227d192e2af9cf821",
+      "path": "llm_retrieval_long_long/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c19102b4aa1645682019096413a8cf08640a292a",
+      "size": 112623603,
+      "lfs": {
+        "oid": "734dfacc742074b18c95dcb3c8a84ed14e010ab7d01f7094aa370b1b365279cb",
+        "size": 112623603,
+        "pointerSize": 134
+      },
+      "xetHash": "80c775af7798ad94d3d9183bc58d646af9c35d6359362aab7349cea2ccaa33b2",
+      "path": "llm_retrieval_long_long/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "61d6e128d38dbf2e427164a89a3bda6f95bd80f3",
+      "size": 38575278,
+      "lfs": {
+        "oid": "cbadf2e214b7b37db8d2c9e10beaf6f8fa95821c5211965238b8718c04388501",
+        "size": 38575278,
+        "pointerSize": 133
+      },
+      "xetHash": "88d301083bfbd544307f251280e3a1dd3449b97ada52397bf7a88d24d3f1d30e",
+      "path": "llm_retrieval_long_short/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5ce3d167f7ca0a20cb0517eafe0f35b082eeb937",
+      "size": 6996247,
+      "lfs": {
+        "oid": "9b1add4945203162afd032d6e90c1f156ad5f84bb154a5c28476a79e3212689c",
+        "size": 6996247,
+        "pointerSize": 132
+      },
+      "xetHash": "04f23f57409aac8e60996d8fe3c21e4bfe1b087159e84301ac124f9c73a24916",
+      "path": "llm_retrieval_long_short/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "f498ba182bba70135cf2917a0d3b2c52efe5126e",
+      "size": 556417179,
+      "lfs": {
+        "oid": "fbce3f5749cbe737c6e6893969dcbcfb5bddd40f1d4274065260627ded9c480c",
+        "size": 556417179,
+        "pointerSize": 134
+      },
+      "xetHash": "1de1b3e5b1401995bb3181e88e5bce9e84cefc1eacbea631dfa60a750699e069",
+      "path": "llm_retrieval_short_long/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "8fe467461b8ebf789173857940474b3ef6547ffc",
+      "size": 327236875,
+      "lfs": {
+        "oid": "ce8eb224b08bd05496a70d2df85a7bae71d9099932b7293fc6928c63a25a7de1",
+        "size": 327236875,
+        "pointerSize": 134
+      },
+      "xetHash": "e54745668a0f6d01facdab00f6c4d7ae304d2db22b4fe0635ee6556c691086bf",
+      "path": "llm_retrieval_short_long/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "48fe0215a3b88cf9a160d21d0084e3c4744ac8dd",
+      "size": 27686818,
+      "lfs": {
+        "oid": "3f4a48a2edd7a38e711b6b440f959f7d520c040a3ba02bb021ed1326addc8e35",
+        "size": 27686818,
+        "pointerSize": 133
+      },
+      "xetHash": "0fc374788dbac4beaf450aadb7d31b4743149acd6d4b88706515b936db42f696",
+      "path": "llm_retrieval_short_short/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "bde822344bc84247f0551eae33833eb331beb6c0",
+      "size": 98567611,
+      "lfs": {
+        "oid": "5a3c4990a1529ab84e5051fe8edf7888e6cf379ac4fb4db58a22faaf42423bbe",
+        "size": 98567611,
+        "pointerSize": 133
+      },
+      "xetHash": "f9302d05fc0adae00e676d1e376666b4c25e1e204764de9fcdca02d055149408",
+      "path": "llm_sts_bitext_retrieval/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "2ee479d03f1d7e4a7c6dc5b2a0d019e5f63d194c",
+      "size": 121711246,
+      "lfs": {
+        "oid": "fa9d802ff7497964248a41cf4f35882ebc6afa35f07459f1628e546b5fe337b2",
+        "size": 121711246,
+        "pointerSize": 134
+      },
+      "xetHash": "c59da86d2910d26c946692584bd697d735e8c6a201a5c80eb89febe8e1e5b8e6",
+      "path": "llm_sts_monolingual/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "eee482f3281348d79250b4bcb22e65c9718b9875",
+      "size": 41431041,
+      "lfs": {
+        "oid": "45a293964da4b67d9d44a305b28614a92610b77444a7366a942abaa00473f731",
+        "size": 41431041,
+        "pointerSize": 133
+      },
+      "xetHash": "903a6932bc1725ee6b7e93ade98141f4ebbb4cf311773601d231dff7340cf504",
+      "path": "llm_sts_monolingual/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "32d5221a5ca7e7626385202fa9a1106fd09b3985",
+      "size": 199806970,
+      "lfs": {
+        "oid": "73bcdf427c48f8250f25ee3d29c6705ce6368db2987678b3ebecc8d6d8157777",
+        "size": 199806970,
+        "pointerSize": 134
+      },
+      "xetHash": "6445a5a95ebdcd970391c39a7d7d7c327f2d2a98b6b3ac33aaa6e2cdc879b435",
+      "path": "miracl/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "cb1664a1997c26124963150b005794a372cc3a28",
+      "size": 2609516321,
+      "lfs": {
+        "oid": "5aae0c343900d899c291fbf642e0feb579ee417a64c78260450c9dcef6b121c2",
+        "size": 2609516321,
+        "pointerSize": 135
+      },
+      "xetHash": "a736319f1fb1b3245e1bf918e86e13ef2c1c06f2fc9c17174b8ba31e7d690be0",
+      "path": "mldr/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "14b76b438fbdcbbcb95dc84e085fa69347136c7b",
+      "size": 177469332,
+      "lfs": {
+        "oid": "ac74df6b0838b8351fa485fc31ecc32ea71725451f3247ff4bfad4b9cddf472c",
+        "size": 177469332,
+        "pointerSize": 134
+      },
+      "xetHash": "01fd62d3dad3fa7e9f179ac85927e9dae512e3095800dd785012aaca58f67685",
+      "path": "mmarco-chinese/train-00000-of-00004.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a69d97fe9bf40fe59881d48d8f734e144652780c",
+      "size": 177251206,
+      "lfs": {
+        "oid": "83697408fc3cd840430ed1bac4f2140cd002ee436374b3c94008aadeeb76df36",
+        "size": 177251206,
+        "pointerSize": 134
+      },
+      "xetHash": "5d80662a1364656a664c843a392ef628ebe12682014b9fa1f178ec6046f84c97",
+      "path": "mmarco-chinese/train-00001-of-00004.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "3742e52745ee0cc252dd5d3998341eec3a3244bd",
+      "size": 177430793,
+      "lfs": {
+        "oid": "2fe63357753d22f44cb6e225ca86848819872fddc689493bce8bd9b435088377",
+        "size": 177430793,
+        "pointerSize": 134
+      },
+      "xetHash": "7a2c26d210db57ba1449493ec87eaca2b89c592f1f14c3fd9e67c49919bebfed",
+      "path": "mmarco-chinese/train-00002-of-00004.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "be4af6c053c8d6632feaac770ef7ce75e93ec0f8",
+      "size": 141765276,
+      "lfs": {
+        "oid": "b1704981c9ad3cc8152b4f8cdb5771f0af412bc1cbd89d24cc71d80ed2201064",
+        "size": 141765276,
+        "pointerSize": 134
+      },
+      "xetHash": "bd34f5bc64d7b79ec060f8cafd8a505824f4c707c0a8dcee62ff2a9b406575a9",
+      "path": "mmarco-chinese/train-00003-of-00004.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "b8c373a92c1801053b37ac767128000411646c21",
+      "size": 42430900,
+      "lfs": {
+        "oid": "69337e51982219a33981670027a5b4d245480512ce2c8ff20032bbc1e1397824",
+        "size": 42430900,
+        "pointerSize": 133
+      },
+      "xetHash": "381899823e106bffb7fd7c498ecbba2881cb4ad82f0dfe8a6d156a6a90dc4e50",
+      "path": "mnli/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6f4dfffa571b9b5bb5e5bf023072a9ad5505fbe7",
+      "size": 206340128,
+      "lfs": {
+        "oid": "3bd772c3de7893adddcaaf7f62f887c7a0a06e9346b711ab2b4973336867bf7e",
+        "size": 206340128,
+        "pointerSize": 134
+      },
+      "xetHash": "d627ef3c3efca230661250070513cb7698f6894adf52195b01d1c4f4e484202c",
+      "path": "mr-tydi/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "020122a8a6fbc52285c8b2d771f052fda6f8e604",
+      "size": 185772603,
+      "lfs": {
+        "oid": "e4e4c235a47af2f2f7382b9afa8e6aee68a46947296aad00f5084c66acd113fc",
+        "size": 185772603,
+        "pointerSize": 134
+      },
+      "xetHash": "27313215e095dadb187a42e5ea7cf4d0d2adcbab91e3091ad2070bcef25d3058",
+      "path": "msmarco-passage/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "65f7bf34a3ec7e023102b8371dd2d7f512f73131",
+      "size": 137816222,
+      "lfs": {
+        "oid": "85253384a32d57412bf8d7b8b3aa3d4929643557b13465d291fb9a6c1d006bd5",
+        "size": 137816222,
+        "pointerSize": 134
+      },
+      "xetHash": "7d5bc7c44f0f30fc7830e925f271906c08654e380af0411583855958cd67d46e",
+      "path": "msmarco-passage/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "f351f90c2a623016aea5fb6d9b1cc46b525b930c",
+      "size": 160659145,
+      "lfs": {
+        "oid": "550e334847ae3acae2317fe5ca0ba956a7e3ffe906b3590cee36bce14ea2e168",
+        "size": 160659145,
+        "pointerSize": 134
+      },
+      "xetHash": "244fe32b48b78ed2913c02db33187b63fc771cc1694632fcc7fe869ee1539a6b",
+      "path": "msmarco-v2/train-00000-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "32be4a57468589686caa3630a430d22448835765",
+      "size": 160933228,
+      "lfs": {
+        "oid": "bddc56840635486bb591a814e2fdc73f6a1bbdfb165877f59b00e4c1e42058f9",
+        "size": 160933228,
+        "pointerSize": 134
+      },
+      "xetHash": "9f22b967dac621463a8849be2c9149497b14be077d3913a6985d156c45d020f1",
+      "path": "msmarco-v2/train-00001-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "dcf44541ae477c3e2a792ca41a615157ab53be69",
+      "size": 91724991,
+      "lfs": {
+        "oid": "a8affd664217cc6ced7f0075a6a5fb5a400e4388be8476dca959cbad75cf546e",
+        "size": 91724991,
+        "pointerSize": 133
+      },
+      "xetHash": "ec9a44b03058a064a6783d060961819dc1f564b1abdd4d269f6f24dee1d8a78f",
+      "path": "msmarco-v2/train-00002-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "6a1b98888924a982d2e041761cfaf14340456004",
+      "size": 67572304,
+      "lfs": {
+        "oid": "44cf9b830dabaf10c8e08aaa04f1d5bdbb701c973de3a7f0035b39f146f6264b",
+        "size": 67572304,
+        "pointerSize": 133
+      },
+      "xetHash": "94fd6b6c82466989c61cffbe146679f270a81fb7e6df3304beabbd8a20d738c1",
+      "path": "nfcorpus/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c23c3b2b036c70a693c205bb2edb056f9a42a86e",
+      "size": 29119136,
+      "lfs": {
+        "oid": "adac744963059ab8aabd4f7d1ae48f17099f426fcf6a857724cd79ec80f355f1",
+        "size": 29119136,
+        "pointerSize": 133
+      },
+      "xetHash": "9a234e383a179cb1d8ffe9c06edd44c58817bc1a872cba2e19d8f2b92eb9d80c",
+      "path": "nli_zh/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "b3b3036793c231a1fd987d5486b6f79c458c665b",
+      "size": 27357516,
+      "lfs": {
+        "oid": "e34ee853fa2b9be90624aba1bfcde5bb2ba3e13ee2074981d14ee5ed07ba09ec",
+        "size": 27357516,
+        "pointerSize": 133
+      },
+      "xetHash": "8970e8dafe2d0baa1938cbabbb3ba2b1a154f8bb2f6cfac4b4ae23bdb87a54ef",
+      "path": "nli_zh/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "587815cc907aac42ef017cb36caedd0f9ea2e615",
+      "size": 27797760,
+      "lfs": {
+        "oid": "737f2b2b7d32971d495a1938e3a81ec0aad260505394c65e133ee5da29d48442",
+        "size": 27797760,
+        "pointerSize": 133
+      },
+      "xetHash": "7694ca36746fc696b9a9ca698524eefc1912545cdeacbaff7494b1893a9e80b5",
+      "path": "nllb/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "4cac493d3e21c1e6943cf1997c2ceb722b45acb3",
+      "size": 2241906,
+      "lfs": {
+        "oid": "04c21404f118a35d4b77cbffb83d49b39fca5cf18bdc9a7244460f5feea065be",
+        "size": 2241906,
+        "pointerSize": 132
+      },
+      "xetHash": "0781d33826c8949415a9331685f258ad334b3ecef2dec2dc40de2b2985ec230d",
+      "path": "ocnli/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "599e70ca2b08118e29db3bec450939e476dcf337",
+      "size": 83951094,
+      "lfs": {
+        "oid": "704f05c0d70965fde4b42cec1acc51ff571684a1edca8b17a4bf8966e4d2eca3",
+        "size": 83951094,
+        "pointerSize": 133
+      },
+      "xetHash": "d3e945a03f92ba6c61a4ac779c44eb6b55405ee72f7e8783e8a6d5bc28a56d80",
+      "path": "paws-x-all/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "d5437d27321d4f5784e00531625ba392b9ba8996",
+      "size": 23288458,
+      "lfs": {
+        "oid": "540d2925d75154d17815c201f562c8d6dd54c7a9c32bc94fe0209dca6db0a058",
+        "size": 23288458,
+        "pointerSize": 133
+      },
+      "xetHash": "a4d3e514fea340b6ae9daff67ea8d94f12f93b19baf12ae18343774e32cc39e4",
+      "path": "paws-x-all/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "9f3c248cee18a313ed9eba543fa7d6b448665e5f",
+      "size": 28823298,
+      "lfs": {
+        "oid": "756114ec657ccb6c82cef8cc0358e5a8d5153e5a13d2dd5c68f59ff49235ebf4",
+        "size": 28823298,
+        "pointerSize": 133
+      },
+      "xetHash": "36cc24257607beefb64bdd8ff581fc5cf811336bd8def3ca45071c32268bd0d2",
+      "path": "quora/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "2f44a50faa7542744a2587941cb9f66b438734bb",
+      "size": 166263328,
+      "lfs": {
+        "oid": "72b338bc944617b6c4d11fb23a777070a97b15b5ae16e39d1513b4b277bb387b",
+        "size": 166263328,
+        "pointerSize": 134
+      },
+      "xetHash": "99407fb8bef3d398de27cbff8e249ff5d30aa86c2965e5ae821188bf48c189b8",
+      "path": "rag-dataset-12000/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "951874dc490f7118d795cacd616b44d87a416db6",
+      "size": 76733280,
+      "lfs": {
+        "oid": "0372b7ea4e8bc37f897e41455c2e2d4f4c8badc1d0bccbd71bcef7d865f51875",
+        "size": 76733280,
+        "pointerSize": 133
+      },
+      "xetHash": "e94dc25af98d24222267c3b363b68d5297c91ee39a07cb403e8e8f93404d96ae",
+      "path": "retrieval_data_llm_infgrad/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "9ed5a3d86101f17c69af1b32d233f06db4963ac4",
+      "size": 941481,
+      "lfs": {
+        "oid": "32a90e850f2e748facafb7ef45440522a0c7055083945b44f2e3e6b40c0b015a",
+        "size": 941481,
+        "pointerSize": 131
+      },
+      "xetHash": "a025888d33f4e383000a0969eb406f1a63bb73b8c047c1a5f05efca2951e45d8",
+      "path": "scifact/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "7b70765b87b8a3a366f294bb58a694e88108a908",
+      "size": 39634722,
+      "lfs": {
+        "oid": "a37caafbb02ba045753f562fb12bc4c40c16adb81d92f157a49efa50d14be4ef",
+        "size": 39634722,
+        "pointerSize": 133
+      },
+      "xetHash": "5465ac798b97ba7d8b2e2bc0150eaa5fbe19f633297069e500d69548f0d57269",
+      "path": "simcse_sup_nli/train-00000-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "131c68e97ed13d8a098006bad61c0a98342302d9",
+      "size": 25089656,
+      "lfs": {
+        "oid": "df4218a11a9adaa32d0c815176874109fcfe24186d2b43bd421f9962bef9c94c",
+        "size": 25089656,
+        "pointerSize": 133
+      },
+      "xetHash": "e056b72d5cc93b441f7469c7e6c398d7be2a71e0e54ea9d6ef9c437450e6b5e8",
+      "path": "simcse_sup_nli/train-00001-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "d23e4fdaf07bb78e183facdf2f903f716d1ee220",
+      "size": 3532894,
+      "lfs": {
+        "oid": "d4d836a8eea66b8474d862dbb74d6420ace885938a4ec288448a9afe00ced67c",
+        "size": 3532894,
+        "pointerSize": 132
+      },
+      "xetHash": "d1160d887a6cc9af980c2d0b426527cc38531d20d9b074667e94a08e1cf14b55",
+      "path": "simcse_sup_nli/train-00002-of-00003.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "8052530f49214786b1f3b4899421f3e51c4b50f2",
+      "size": 3026829,
+      "lfs": {
+        "oid": "73cca273223ebe63f37ce60fd71dd5a5ace6a403229256b785c547f462c694a7",
+        "size": 3026829,
+        "pointerSize": 132
+      },
+      "xetHash": "3aed856bb7c1a57f0d2719179170a6ad29ad72aff95ebf0089b605f9baa3efa1",
+      "path": "snli/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "622f1a97b33c946ba08eea5616da62a052c7e515",
+      "size": 329231592,
+      "lfs": {
+        "oid": "d8ae474dca6bee385d7a95b7e049bc88a32a06f67b024cab5c4dffcfe8d0f018",
+        "size": 329231592,
+        "pointerSize": 134
+      },
+      "xetHash": "a3051200e4c8d234df8bb809c0d95135fca68f59a58b159085054a5283e3533d",
+      "path": "squad_v2/train-00000-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "57d9ccc39fa62ba76a98a7553579bfab77f8ebe8",
+      "size": 85331333,
+      "lfs": {
+        "oid": "03e359b24cc4aee0e9b4f4ebb7bc313ca8ed137c83c195325f612cc7a3166c4c",
+        "size": 85331333,
+        "pointerSize": 133
+      },
+      "xetHash": "5747313522d7ee29029fa38343b9a683573a19d8042f301507840194af5920c2",
+      "path": "squad_v2/train-00001-of-00002.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c369f70c8ce06da6f3841eef65f97991bd166956",
+      "size": 121190869,
+      "lfs": {
+        "oid": "6fdd61dca855579e00356f15830abb03fa4c189c406e467705edab46b2c38e20",
+        "size": 121190869,
+        "pointerSize": 134
+      },
+      "xetHash": "06b242d1969dec11df31eefe57885b0ff5721ff7d80c23a27ecbb4446a9f4397",
+      "path": "triviaqa/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "574190ff77396423b71261203c5db7306b77d408",
+      "size": 182064079,
+      "lfs": {
+        "oid": "0d8687da8c0bcb9bc90a1de4ea88e4cbe0ab7ab9cea759ab6e6a7298222096ea",
+        "size": 182064079,
+        "pointerSize": 134
+      },
+      "xetHash": "e905cea7b2f1bea46db8f3f8fb6e88d02a61f73fe769068dcf18215022474ddd",
+      "path": "webgpt_comparisons/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "5586a305a62f7b79c331eb894692811af0a8f3a4",
+      "size": 9796580,
+      "lfs": {
+        "oid": "6533e4cf990282f214297a19f6a8521bb2e9c1a2923a66491ed4122be7ac8b94",
+        "size": 9796580,
+        "pointerSize": 132
+      },
+      "xetHash": "196c13893a9e99889a71afca086f9eb607ab08008f3d69595b6af6cac8ece30a",
+      "path": "webqa/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "a58f120e9b6349530791264ad18e6d886ab09f58",
+      "size": 178338514,
+      "lfs": {
+        "oid": "d1f78f69c1079691fe7db40c3d688af990cce3b44a8440ad636e2dda9705049c",
+        "size": 178338514,
+        "pointerSize": 134
+      },
+      "xetHash": "abc4e2aea98c9af1b67482ad5292686239a2ef324ab0775f9aafffcefc08e712",
+      "path": "wikipedia-nq/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "1fc5b2a18372b7a717ba466ec86ebb03db26aa82",
+      "size": 42959381,
+      "lfs": {
+        "oid": "a83714bc9ccff87bc25c4a6fa33cdfbb2c0cf50f66ea402294639b279af6fe4f",
+        "size": 42959381,
+        "pointerSize": 133
+      },
+      "xetHash": "a9a686b721f5127e8e455ea98e07f7147358b750da8a9f191e95233b05176cf3",
+      "path": "xnli_zh/train-00000-of-00001.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "c21777ded7d99fa0d2272a28ba8f9ada33ae5688",
+      "size": 56035770,
+      "lfs": {
+        "oid": "113ff9dfb089bce4acd363237ae2d5d49c90f5461490be7a4f3d7b0c3fb2f91b",
+        "size": 56035770,
+        "pointerSize": 133
+      },
+      "xetHash": "6b7f705bf19349c166c46db838d35e3e613eb2ab1f056ed96fd9ad35a4db58a6",
+      "path": "yahoo-answers/train-00000-of-00001.parquet"
+    }
+  ]
+}

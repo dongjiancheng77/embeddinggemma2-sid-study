@@ -1,0 +1,16 @@
+{
+  "kind": "pca",
+  "setting": "collab",
+  "seed": 0,
+  "parameters": 0,
+  "train_seconds": 0,
+  "total_seconds": 1.829560900107026,
+  "peak_bytes": 0,
+  "gradient_audit": {},
+  "rec_validation_recall10": 0.041,
+  "rec_validation_ndcg10": 0.020736730873584748,
+  "rec_validation_candidates": 12069,
+  "text_validation_recall10": 0.96875,
+  "text_validation_ndcg10": 0.9012998590866724,
+  "text_validation_candidates": 1536
+}

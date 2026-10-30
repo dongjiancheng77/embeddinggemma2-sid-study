@@ -1,0 +1,160 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "settings": [
+    "collab",
+    "mixed"
+  ],
+  "methods": [
+    "mrl",
+    "pca",
+    "linear",
+    "ortho",
+    "lora"
+  ],
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "cuda": "12.8",
+  "protocol": {
+    "stage1_epochs": 1,
+    "batch_size": 32,
+    "temperature": 0.1,
+    "head_lr": 0.0003,
+    "lora_lr": 0.0001,
+    "rec_train_pairs": 8192,
+    "text_train_pairs": 8192,
+    "mix": "Alternate one rec and one text batch; rec exposure unchanged; mixed has twice the updates.",
+    "negatives": "31 other in-batch positives + all 32 sampled negatives shared across the batch; positive duplicates and seen items masked.",
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_targets": [
+      "q_proj",
+      "v_proj"
+    ],
+    "max_tokens": 192,
+    "selection": "Fixed final epoch, no test-dependent selection.",
+    "C": "Frozen original prefix, unchanged between settings.",
+    "D": "Centered unwhitened PCA128 fitted only on all-item frozen content, unchanged between settings.",
+    "lora_gradient_cache_microbatch": 32,
+    "downstream": {
+      "rq_warmup_epochs": 10,
+      "rq_epochs": 15,
+      "gen_epochs": 5,
+      "gen_max_windows": 60000,
+      "gen_hist_len": 10,
+      "beam": 30,
+      "eval_users": 1000,
+      "eval_seed": 42
+    }
+  },
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.22.0",
+    "sentence-transformers": "6.2.0",
+    "peft": "0.21.2",
+    "pyarrow": "26.0.0",
+    "scikit-learn": "1.9.1"
+  },
+  "sha256": {
+    "mini_tiger.py": "10a677ab711887eae4f3b77f9b0e6818dad73bf6f07e55798c3d9439672bbb4e",
+    "experiment2_train.py": "35f648e5287d2d9cc28d6a6483836e3db6db6dec179eaf51ae0d7e5ea3437500",
+    "experiment2_data.py": "9a87c496ae8c97c5e0d15eef8d31b8228b1a55bd3dde7d3ab56ed36824cf4260",
+    "work\\experiment2\\dataset.json": "88ff716c9fdd92ec2cec558b33a566325b80c6f6a437eb40abbb784f302500f9",
+    "work\\experiment2\\base768.npy": "a18ee5c1808c4dd79a51bbd5da8da07806e7ca1d278e8ef2d791216631fba418",
+    "work\\beauty.json": "2ab1cfd8dc0737fd12a8666bdd7f153adfbb8123a96c3299918bdb570f903dfc"
+  },
+  "data_manifest": {
+    "sha256": "88ff716c9fdd92ec2cec558b33a566325b80c6f6a437eb40abbb784f302500f9",
+    "beauty_sha256": "2ab1cfd8dc0737fd12a8666bdd7f153adfbb8123a96c3299918bdb570f903dfc",
+    "kalm": {
+      "repository": "KaLM-Embedding/KaLM-embedding-finetuning-data",
+      "revision": "e9443ab6f5d4dc29c79cea03834e932428ed6ab1",
+      "seed": 20261029,
+      "sampling": "Uniform without replacement within selected English source shards; not original full-mixture replication.",
+      "files": [
+        {
+          "path": "quora/train-00000-of-00001.parquet",
+          "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\quora__train-00000-of-00001.parquet",
+          "rows": 89558,
+          "sha256": "756114ec657ccb6c82cef8cc0358e5a8d5153e5a13d2dd5c68f59ff49235ebf4",
+          "train": 3072,
+          "validation": 256
+        },
+        {
+          "path": "snli/train-00000-of-00001.parquet",
+          "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\snli__train-00000-of-00001.parquet",
+          "rows": 16480,
+          "sha256": "73cca273223ebe63f37ce60fd71dd5a5ace6a403229256b785c547f462c694a7",
+          "train": 2048,
+          "validation": 256
+        },
+        {
+          "path": "msmarco-passage/train-00000-of-00002.parquet",
+          "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\msmarco-passage__train-00000-of-00002.parquet",
+          "rows": 100000,
+          "sha256": "e4e4c235a47af2f2f7382b9afa8e6aee68a46947296aad00f5084c66acd113fc",
+          "train": 3072,
+          "validation": 256
+        }
+      ],
+      "normalization": "Strip source Instruct/Query wrappers; apply native EmbeddingGemma2 search/document prompts.",
+      "hard_negatives_used": 1,
+      "train": {
+        "rows": 8192,
+        "sha256": "e7de002e062ec3401aa9f0602a8cc123e95db056bf9d036a7dbaca88422fd0b2"
+      },
+      "validation": {
+        "rows": 768,
+        "sha256": "03d61bcbd495a638c62847955fc6bb1bcfa5d5fd3483564e7d115ddb548b2669"
+      }
+    },
+    "counts": {
+      "rec_train": 8192,
+      "rec_validation": 1000,
+      "text_train": 8192,
+      "text_validation": 768
+    },
+    "unique_texts": 48123,
+    "model": "C:/Users/Lenovo/.cache/huggingface/hub/models--google--embeddinggemma-2/snapshots/f9972ac22e696a105c482202646979e33e4b5a1e",
+    "specmrl_source": {
+      "source": "https://codeload.github.com/CentreChen/spec-mrl/zip/refs/heads/master",
+      "archive_sha256": "3c92695daa6717f51336173b6dc60a54f9bc97f86b2a705da8d71abc96bc874e",
+      "zip_comment": "59db2450bc1cf386f30413a3de32dbe82b47bbd0"
+    },
+    "protocol": {
+      "stage1_epochs": 1,
+      "batch_size": 32,
+      "temperature": 0.1,
+      "head_lr": 0.0003,
+      "lora_lr": 0.0001,
+      "rec_train_pairs": 8192,
+      "text_train_pairs": 8192,
+      "mix": "Alternate one rec and one text batch; rec exposure unchanged; mixed has twice the updates.",
+      "negatives": "31 other in-batch positives + all 32 sampled negatives shared across the batch; positive duplicates and seen items masked.",
+      "lora_rank": 8,
+      "lora_alpha": 16,
+      "lora_targets": [
+        "q_proj",
+        "v_proj"
+      ],
+      "max_tokens": 192,
+      "selection": "Fixed final epoch, no test-dependent selection.",
+      "C": "Frozen original prefix, unchanged between settings.",
+      "D": "Centered unwhitened PCA128 fitted only on all-item frozen content, unchanged between settings.",
+      "lora_gradient_cache_microbatch": 32,
+      "downstream": {
+        "rq_warmup_epochs": 10,
+        "rq_epochs": 15,
+        "gen_epochs": 5,
+        "gen_max_windows": 60000,
+        "gen_hist_len": 10,
+        "beam": 30,
+        "eval_users": 1000,
+        "eval_seed": 42
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base_unique": 11857,
+  "base_collision_items": 212,
+  "base_max_group": 5,
+  "suffix_vocab": 5,
+  "codebook_stage_usage": [
+    256,
+    256,
+    256
+  ],
+  "recon_loss": 0.44049760488391526
+}

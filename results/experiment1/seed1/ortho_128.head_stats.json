@@ -1,0 +1,9 @@
+{
+  "continuous_neighbor_overlap20": 0.617578125,
+  "overlap_query_count": 256,
+  "proxy_val_recall20": 0.098,
+  "proxy_val_ndcg20": 0.04136155557632446,
+  "note": "Proxy: normalized mean history embedding scores items; not autoregressive SID metrics.",
+  "trainable_parameters": 98304,
+  "orthogonality_max_error": 5.364418029785156e-07
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "lora",
+  "setting": "collab",
+  "seed": 0,
+  "parameters": 524288,
+  "train_seconds": 477.5451503000222,
+  "total_seconds": 552.4653557999991,
+  "peak_bytes": 7496772608,
+  "gradient_audit": {
+    "nonzero_trainable_gradient_tensors": 48,
+    "trainable_parameter_tensors": 96,
+    "unexpected_frozen_gradients": 0
+  },
+  "rec_validation_recall10": 0.063,
+  "rec_validation_ndcg10": 0.03619351136684418,
+  "rec_validation_candidates": 12069,
+  "text_validation_recall10": 0.9817708333333334,
+  "text_validation_ndcg10": 0.912239134311676,
+  "text_validation_candidates": 1536
+}

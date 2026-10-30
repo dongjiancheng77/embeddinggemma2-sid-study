@@ -1,0 +1,38 @@
+[
+  {
+    "run": "collab\\seed0\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999578595161438,
+    "max_abs_difference": 0.002573743462562561,
+    "passed": true
+  },
+  {
+    "run": "collab\\seed1\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999556541442871,
+    "max_abs_difference": 0.002746906131505966,
+    "passed": true
+  },
+  {
+    "run": "collab\\seed2\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999638795852661,
+    "max_abs_difference": 0.0021392852067947388,
+    "passed": true
+  },
+  {
+    "run": "mixed\\seed0\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999493956565857,
+    "max_abs_difference": 0.0031265392899513245,
+    "passed": true
+  },
+  {
+    "run": "mixed\\seed1\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999656677246094,
+    "max_abs_difference": 0.0021785497665405273,
+    "passed": true
+  },
+  {
+    "run": "mixed\\seed2\\lora",
+    "cpu_fp32_vs_gpu_bf16_min_cosine": 0.9999690651893616,
+    "max_abs_difference": 0.002109542489051819,
+    "passed": true
+  }
+]

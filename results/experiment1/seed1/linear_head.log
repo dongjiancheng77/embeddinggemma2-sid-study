@@ -1,0 +1,5 @@
+HEAD linear epoch 1 loss=2.1175 val_R20=0.0820 val_N20=0.0350
+HEAD linear epoch 2 loss=1.9187 val_R20=0.0920 val_N20=0.0381
+HEAD linear epoch 3 loss=1.8621 val_R20=0.0870 val_N20=0.0368
+HEAD DIAGNOSTIC: {"continuous_neighbor_overlap20": 0.6085937499999999, "overlap_query_count": 256, "proxy_val_recall20": 0.092, "proxy_val_ndcg20": 0.03810528039932251, "note": "Proxy: normalized mean history embedding scores items; not autoregressive SID metrics.", "trainable_parameters": 98432}
+HEAD: linear -> C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\benchmark_20261029\seed1\linear_128.npy

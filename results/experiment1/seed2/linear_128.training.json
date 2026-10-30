@@ -1,0 +1,41 @@
+{
+  "config": {
+    "cmd": "head",
+    "data": "work/beauty.json",
+    "embeddings": "work/full768.npy",
+    "kind": "linear",
+    "out": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\work\\benchmark_20261029\\seed2\\linear_128.npy",
+    "device": "cuda",
+    "hist_len": 10,
+    "max_windows": 60000,
+    "val_users": 1000,
+    "negatives": 20,
+    "temperature": 0.15,
+    "epochs": 3,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "seed": 2,
+    "fn": "<function train_head at 0x000001FB41513100>"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 2.115032393374342,
+      "recall": 0.077,
+      "ndcg": 0.03562657856941223
+    },
+    {
+      "epoch": 2,
+      "loss": 1.9154679156364278,
+      "recall": 0.076,
+      "ndcg": 0.036979146480560304
+    },
+    {
+      "epoch": 3,
+      "loss": 1.8592633211866338,
+      "recall": 0.084,
+      "ndcg": 0.041042984008789064
+    }
+  ],
+  "seconds": 2.9632684998214245
+}

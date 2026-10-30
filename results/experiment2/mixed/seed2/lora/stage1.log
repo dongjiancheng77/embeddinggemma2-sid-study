@@ -1,0 +1,39 @@
+W1030 00:10:10.350000 35428 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/413 [00:00<?, ?it/s]Loading weights:  36%|¨€¨€¨€¨„      | 147/413 [00:00<00:00, 1462.32it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 413/413 [00:00<00:00, 2465.28it/s]
+lora mixed 16/512 loss=2.2162 seconds=30.0 peakGB=7.50
+lora mixed 32/512 loss=1.9893 seconds=53.2 peakGB=7.50
+lora mixed 48/512 loss=1.8802 seconds=77.4 peakGB=7.50
+lora mixed 64/512 loss=1.7312 seconds=100.0 peakGB=7.50
+lora mixed 80/512 loss=1.1309 seconds=123.5 peakGB=7.50
+lora mixed 96/512 loss=1.0554 seconds=147.1 peakGB=7.50
+lora mixed 112/512 loss=0.8061 seconds=171.1 peakGB=7.50
+lora mixed 128/512 loss=0.4646 seconds=195.0 peakGB=7.50
+lora mixed 144/512 loss=0.3789 seconds=218.6 peakGB=7.50
+lora mixed 160/512 loss=0.4723 seconds=242.2 peakGB=7.50
+lora mixed 176/512 loss=0.2576 seconds=266.5 peakGB=7.50
+lora mixed 192/512 loss=0.3519 seconds=290.0 peakGB=7.50
+lora mixed 208/512 loss=0.2631 seconds=313.6 peakGB=7.50
+lora mixed 224/512 loss=0.3116 seconds=337.6 peakGB=7.50
+lora mixed 240/512 loss=0.2114 seconds=361.9 peakGB=7.50
+lora mixed 256/512 loss=0.3123 seconds=385.8 peakGB=7.50
+lora mixed 272/512 loss=0.2439 seconds=409.2 peakGB=7.50
+lora mixed 288/512 loss=0.2434 seconds=433.0 peakGB=7.50
+lora mixed 304/512 loss=0.2491 seconds=457.2 peakGB=7.50
+lora mixed 320/512 loss=0.2406 seconds=480.8 peakGB=7.50
+lora mixed 336/512 loss=0.2705 seconds=504.2 peakGB=7.50
+lora mixed 352/512 loss=0.1915 seconds=528.1 peakGB=7.50
+lora mixed 368/512 loss=0.1636 seconds=551.9 peakGB=7.50
+lora mixed 384/512 loss=0.1905 seconds=575.6 peakGB=7.50
+lora mixed 400/512 loss=0.1917 seconds=599.3 peakGB=7.50
+lora mixed 416/512 loss=0.2838 seconds=622.8 peakGB=7.50
+lora mixed 432/512 loss=0.3746 seconds=645.7 peakGB=7.50
+lora mixed 448/512 loss=0.2565 seconds=668.8 peakGB=7.50
+lora mixed 464/512 loss=0.1484 seconds=692.9 peakGB=7.50
+lora mixed 480/512 loss=0.2895 seconds=715.9 peakGB=7.50
+lora mixed 496/512 loss=0.1960 seconds=740.1 peakGB=7.50
+lora mixed 512/512 loss=0.2383 seconds=763.9 peakGB=7.50
+EXPORT 0 / 15373
+EXPORT 4096 / 15373
+EXPORT 8192 / 15373
+EXPORT 12288 / 15373
+FINISHED {"kind": "lora", "setting": "mixed", "seed": 2, "parameters": 524288, "train_seconds": 763.8618000000715, "total_seconds": 838.9686252998654, "peak_bytes": 7496772608, "gradient_audit": {"nonzero_trainable_gradient_tensors": 48, "trainable_parameter_tensors": 96, "unexpected_frozen_gradients": 0}, "rec_validation_recall10": 0.064, "rec_validation_ndcg10": 0.03642634236812591, "rec_validation_candidates": 12069, "text_validation_recall10": 0.9895833333333334, "text_validation_ndcg10": 0.9289525598287582, "text_validation_candidates": 1536}

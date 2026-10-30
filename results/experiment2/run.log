@@ -1,0 +1,199 @@
+START 0 collab mrl stage1
+DONE 0 collab mrl stage1 3.5
+START 0 collab mrl rq
+DONE 0 collab mrl rq 8.2
+START 0 collab mrl gen
+DONE 0 collab mrl gen 7.7
+START 0 collab mrl eval
+DONE 0 collab mrl eval 17.2
+START 0 collab pca stage1
+DONE 0 collab pca stage1 5.5
+START 0 collab pca rq
+DONE 0 collab pca rq 7.8
+START 0 collab pca gen
+DONE 0 collab pca gen 7.2
+START 0 collab pca eval
+DONE 0 collab pca eval 18.2
+START 0 collab linear stage1
+DONE 0 collab linear stage1 4.7
+START 0 collab linear rq
+DONE 0 collab linear rq 8.0
+START 0 collab linear gen
+DONE 0 collab linear gen 7.7
+START 0 collab linear eval
+DONE 0 collab linear eval 17.3
+START 0 collab ortho stage1
+DONE 0 collab ortho stage1 5.3
+START 0 collab ortho rq
+DONE 0 collab ortho rq 7.8
+START 0 collab ortho gen
+DONE 0 collab ortho gen 6.5
+START 0 collab ortho eval
+DONE 0 collab ortho eval 16.9
+START 0 collab lora stage1
+DONE 0 collab lora stage1 555.6
+START 0 collab lora rq
+DONE 0 collab lora rq 7.8
+START 0 collab lora gen
+DONE 0 collab lora gen 6.7
+START 0 collab lora eval
+DONE 0 collab lora eval 17.3
+REFERENCE REUSE mixed 0 mrl
+REFERENCE REUSE mixed 0 pca
+START 0 mixed linear stage1
+DONE 0 mixed linear stage1 5.2
+START 0 mixed linear rq
+DONE 0 mixed linear rq 7.5
+START 0 mixed linear gen
+DONE 0 mixed linear gen 6.5
+START 0 mixed linear eval
+DONE 0 mixed linear eval 17.4
+START 0 mixed ortho stage1
+DONE 0 mixed ortho stage1 5.7
+START 0 mixed ortho rq
+DONE 0 mixed ortho rq 6.8
+START 0 mixed ortho gen
+DONE 0 mixed ortho gen 6.8
+START 0 mixed ortho eval
+DONE 0 mixed ortho eval 17.1
+START 0 mixed lora stage1
+DONE 0 mixed lora stage1 844.9
+START 0 mixed lora rq
+DONE 0 mixed lora rq 8.2
+START 0 mixed lora gen
+DONE 0 mixed lora gen 6.5
+START 0 mixed lora eval
+DONE 0 mixed lora eval 16.9
+START 1 collab mrl stage1
+DONE 1 collab mrl stage1 3.4
+START 1 collab mrl rq
+DONE 1 collab mrl rq 8.2
+START 1 collab mrl gen
+DONE 1 collab mrl gen 6.5
+START 1 collab mrl eval
+DONE 1 collab mrl eval 17.1
+START 1 collab pca stage1
+DONE 1 collab pca stage1 5.2
+START 1 collab pca rq
+DONE 1 collab pca rq 8.3
+START 1 collab pca gen
+DONE 1 collab pca gen 6.5
+START 1 collab pca eval
+DONE 1 collab pca eval 16.9
+START 1 collab linear stage1
+DONE 1 collab linear stage1 5.0
+START 1 collab linear rq
+DONE 1 collab linear rq 8.0
+START 1 collab linear gen
+DONE 1 collab linear gen 6.9
+START 1 collab linear eval
+DONE 1 collab linear eval 16.9
+START 1 collab ortho stage1
+DONE 1 collab ortho stage1 5.1
+START 1 collab ortho rq
+DONE 1 collab ortho rq 7.6
+START 1 collab ortho gen
+DONE 1 collab ortho gen 6.5
+START 1 collab ortho eval
+DONE 1 collab ortho eval 16.8
+START 1 collab lora stage1
+DONE 1 collab lora stage1 555.2
+START 1 collab lora rq
+DONE 1 collab lora rq 8.2
+START 1 collab lora gen
+DONE 1 collab lora gen 6.5
+START 1 collab lora eval
+DONE 1 collab lora eval 16.8
+REFERENCE REUSE mixed 1 mrl
+REFERENCE REUSE mixed 1 pca
+START 1 mixed linear stage1
+DONE 1 mixed linear stage1 5.2
+START 1 mixed linear rq
+DONE 1 mixed linear rq 7.3
+START 1 mixed linear gen
+DONE 1 mixed linear gen 6.5
+START 1 mixed linear eval
+DONE 1 mixed linear eval 16.9
+START 1 mixed ortho stage1
+DONE 1 mixed ortho stage1 5.1
+START 1 mixed ortho rq
+DONE 1 mixed ortho rq 7.3
+START 1 mixed ortho gen
+DONE 1 mixed ortho gen 6.4
+START 1 mixed ortho eval
+DONE 1 mixed ortho eval 16.9
+START 1 mixed lora stage1
+DONE 1 mixed lora stage1 843.3
+START 1 mixed lora rq
+DONE 1 mixed lora rq 7.8
+START 1 mixed lora gen
+DONE 1 mixed lora gen 6.7
+START 1 mixed lora eval
+DONE 1 mixed lora eval 17.6
+START 2 collab mrl stage1
+DONE 2 collab mrl stage1 2.7
+START 2 collab mrl rq
+DONE 2 collab mrl rq 8.2
+START 2 collab mrl gen
+DONE 2 collab mrl gen 6.5
+START 2 collab mrl eval
+DONE 2 collab mrl eval 17.1
+START 2 collab pca stage1
+DONE 2 collab pca stage1 5.5
+START 2 collab pca rq
+DONE 2 collab pca rq 7.8
+START 2 collab pca gen
+DONE 2 collab pca gen 6.7
+START 2 collab pca eval
+DONE 2 collab pca eval 16.5
+START 2 collab linear stage1
+DONE 2 collab linear stage1 4.8
+START 2 collab linear rq
+DONE 2 collab linear rq 8.5
+START 2 collab linear gen
+DONE 2 collab linear gen 7.2
+START 2 collab linear eval
+DONE 2 collab linear eval 16.9
+START 2 collab ortho stage1
+DONE 2 collab ortho stage1 5.2
+START 2 collab ortho rq
+DONE 2 collab ortho rq 7.8
+START 2 collab ortho gen
+DONE 2 collab ortho gen 6.7
+START 2 collab ortho eval
+DONE 2 collab ortho eval 17.1
+START 2 collab lora stage1
+DONE 2 collab lora stage1 555.9
+START 2 collab lora rq
+DONE 2 collab lora rq 8.0
+START 2 collab lora gen
+DONE 2 collab lora gen 6.6
+START 2 collab lora eval
+DONE 2 collab lora eval 17.2
+REFERENCE REUSE mixed 2 mrl
+REFERENCE REUSE mixed 2 pca
+START 2 mixed linear stage1
+DONE 2 mixed linear stage1 4.4
+START 2 mixed linear rq
+DONE 2 mixed linear rq 8.0
+START 2 mixed linear gen
+DONE 2 mixed linear gen 7.1
+START 2 mixed linear eval
+DONE 2 mixed linear eval 17.6
+START 2 mixed ortho stage1
+DONE 2 mixed ortho stage1 5.5
+START 2 mixed ortho rq
+DONE 2 mixed ortho rq 7.5
+START 2 mixed ortho gen
+DONE 2 mixed ortho gen 6.5
+START 2 mixed ortho eval
+DONE 2 mixed ortho eval 17.8
+START 2 mixed lora stage1
+DONE 2 mixed lora stage1 841.7
+START 2 mixed lora rq
+DONE 2 mixed lora rq 7.6
+START 2 mixed lora gen
+DONE 2 mixed lora gen 6.9
+START 2 mixed lora eval
+DONE 2 mixed lora eval 17.8
+ALL 30 CONDITIONS COMPLETE

@@ -1,0 +1,82 @@
+{
+  "rec_train": {
+    "q": {
+      "mean_raw_tokens": 157.1392822265625,
+      "mean_capped_tokens": 127.533203125,
+      "truncated_examples": 2206,
+      "examples": 8192
+    },
+    "p": {
+      "mean_raw_tokens": 105.02392578125,
+      "mean_capped_tokens": 104.557861328125,
+      "truncated_examples": 248,
+      "examples": 8192
+    },
+    "n": {
+      "mean_raw_tokens": 110.411865234375,
+      "mean_capped_tokens": 110.1474609375,
+      "truncated_examples": 169,
+      "examples": 8192
+    }
+  },
+  "rec_validation": {
+    "q": {
+      "mean_raw_tokens": 139.891,
+      "mean_capped_tokens": 120.915,
+      "truncated_examples": 166,
+      "examples": 1000
+    },
+    "p": {
+      "mean_raw_tokens": 111.314,
+      "mean_capped_tokens": 110.904,
+      "truncated_examples": 37,
+      "examples": 1000
+    },
+    "n": {
+      "mean_raw_tokens": 109.941,
+      "mean_capped_tokens": 109.544,
+      "truncated_examples": 21,
+      "examples": 1000
+    }
+  },
+  "text_train": {
+    "q": {
+      "mean_raw_tokens": 19.3765869140625,
+      "mean_capped_tokens": 19.3765869140625,
+      "truncated_examples": 0,
+      "examples": 8192
+    },
+    "p": {
+      "mean_raw_tokens": 46.141357421875,
+      "mean_capped_tokens": 45.968994140625,
+      "truncated_examples": 55,
+      "examples": 8192
+    },
+    "n": {
+      "mean_raw_tokens": 46.4989013671875,
+      "mean_capped_tokens": 46.345458984375,
+      "truncated_examples": 52,
+      "examples": 8192
+    }
+  },
+  "text_validation": {
+    "q": {
+      "mean_raw_tokens": 19.81640625,
+      "mean_capped_tokens": 19.81640625,
+      "truncated_examples": 0,
+      "examples": 768
+    },
+    "p": {
+      "mean_raw_tokens": 42.291666666666664,
+      "mean_capped_tokens": 42.178385416666664,
+      "truncated_examples": 3,
+      "examples": 768
+    },
+    "n": {
+      "mean_raw_tokens": 42.967447916666664,
+      "mean_capped_tokens": 42.90234375,
+      "truncated_examples": 2,
+      "examples": 768
+    }
+  }
+}

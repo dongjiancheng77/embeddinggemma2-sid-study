@@ -1,0 +1,9 @@
+torch>=2.11
+torchvision>=0.26
+numpy>=1.26
+scikit-learn>=1.4
+sentence-transformers>=6.1.0
+transformers>=5.18
+matplotlib>=3.8
+peft>=0.21.2
+pyarrow>=26.0.0

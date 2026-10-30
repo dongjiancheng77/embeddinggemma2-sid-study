@@ -1,0 +1,10 @@
+{
+  "split": "test",
+  "users": 1000,
+  "item_level_recall": 0.04,
+  "item_level_ndcg": 0.02146458509114206,
+  "topk": 10,
+  "beam": 30,
+  "generator_validation_ce": 2.9365381412506104,
+  "note": "Single held-out item per user; all-catalog unique SID; history items removed from outputs."
+}

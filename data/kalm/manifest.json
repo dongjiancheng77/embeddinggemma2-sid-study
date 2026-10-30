@@ -1,0 +1,42 @@
+{
+  "repository": "KaLM-Embedding/KaLM-embedding-finetuning-data",
+  "revision": "e9443ab6f5d4dc29c79cea03834e932428ed6ab1",
+  "seed": 20261029,
+  "sampling": "Uniform without replacement within selected English source shards; not original full-mixture replication.",
+  "files": [
+    {
+      "path": "quora/train-00000-of-00001.parquet",
+      "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\quora__train-00000-of-00001.parquet",
+      "rows": 89558,
+      "sha256": "756114ec657ccb6c82cef8cc0358e5a8d5153e5a13d2dd5c68f59ff49235ebf4",
+      "train": 3072,
+      "validation": 256
+    },
+    {
+      "path": "snli/train-00000-of-00001.parquet",
+      "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\snli__train-00000-of-00001.parquet",
+      "rows": 16480,
+      "sha256": "73cca273223ebe63f37ce60fd71dd5a5ace6a403229256b785c547f462c694a7",
+      "train": 2048,
+      "validation": 256
+    },
+    {
+      "path": "msmarco-passage/train-00000-of-00002.parquet",
+      "local": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\data\\kalm\\msmarco-passage__train-00000-of-00002.parquet",
+      "rows": 100000,
+      "sha256": "e4e4c235a47af2f2f7382b9afa8e6aee68a46947296aad00f5084c66acd113fc",
+      "train": 3072,
+      "validation": 256
+    }
+  ],
+  "normalization": "Strip source Instruct/Query wrappers; apply native EmbeddingGemma2 search/document prompts.",
+  "hard_negatives_used": 1,
+  "train": {
+    "rows": 8192,
+    "sha256": "e7de002e062ec3401aa9f0602a8cc123e95db056bf9d036a7dbaca88422fd0b2"
+  },
+  "validation": {
+    "rows": 768,
+    "sha256": "03d61bcbd495a638c62847955fc6bb1bcfa5d5fd3483564e7d115ddb548b2669"
+  }
+}

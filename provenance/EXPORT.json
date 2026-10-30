@@ -1,0 +1,19 @@
+{
+  "source_project": "embeddinggemma2_minitiger",
+  "omitted": [
+    "pretrained weights",
+    "LoRA/RQ/GRU checkpoints",
+    "raw reviews and product metadata",
+    "KaLM parquet/text samples",
+    "embedding caches",
+    "virtual environment",
+    "individual item predictions"
+  ],
+  "per_user_results": "Stable SHA256 user pseudonyms (16 hex characters), Recall and NDCG only. Pairing preserved across all methods/settings/seeds.",
+  "code_changes": {
+    "experiment2_data.py": "Only model path made configurable via EMBEDDINGGEMMA2_MODEL; original executed source archived."
+  },
+  "result_files_are_original_except": [
+    "test.users.json and *_test.users.json are reduced and pseudonymized"
+  ]
+}

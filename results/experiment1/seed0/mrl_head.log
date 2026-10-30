@@ -1,0 +1,2 @@
+HEAD DIAGNOSTIC: {"continuous_neighbor_overlap20": 0.682421875, "overlap_query_count": 256, "proxy_val_recall20": 0.077, "proxy_val_ndcg20": 0.03511435055732727, "note": "Proxy: normalized mean history embedding scores items; not autoregressive SID metrics.", "trainable_parameters": 0}
+MRL: pretrained 128d prefix -> C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\benchmark_20261029\seed0\mrl_128.npy

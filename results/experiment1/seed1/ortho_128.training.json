@@ -1,0 +1,41 @@
+{
+  "config": {
+    "cmd": "head",
+    "data": "work/beauty.json",
+    "embeddings": "work/full768.npy",
+    "kind": "ortho",
+    "out": "C:\\Users\\Lenovo\\Documents\\new\\embeddinggemma2_minitiger\\work\\benchmark_20261029\\seed1\\ortho_128.npy",
+    "device": "cuda",
+    "hist_len": 10,
+    "max_windows": 60000,
+    "val_users": 1000,
+    "negatives": 20,
+    "temperature": 0.15,
+    "epochs": 3,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "seed": 1,
+    "fn": "<function train_head at 0x0000021D99E97100>"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 2.1367514513908548,
+      "recall": 0.087,
+      "ndcg": 0.036853061199188235
+    },
+    {
+      "epoch": 2,
+      "loss": 1.9539371018714093,
+      "recall": 0.095,
+      "ndcg": 0.04030853581428528
+    },
+    {
+      "epoch": 3,
+      "loss": 1.900325304396609,
+      "recall": 0.098,
+      "ndcg": 0.04136155557632446
+    }
+  ],
+  "seconds": 3.6833387000951916
+}

@@ -1,0 +1,26 @@
+AE WARMUP 1 loss=1.34214
+AE WARMUP 2 loss=1.09101
+AE WARMUP 3 loss=1.00658
+AE WARMUP 4 loss=0.98263
+AE WARMUP 5 loss=0.97158
+AE WARMUP 6 loss=0.96233
+AE WARMUP 7 loss=0.94763
+AE WARMUP 8 loss=0.93355
+AE WARMUP 9 loss=0.91182
+AE WARMUP 10 loss=0.89524
+RQVAE epoch 1 recon=0.88675 train_parts=[0.89690059 0.05564168 0.05564168]
+RQVAE epoch 2 recon=0.86626 train_parts=[0.8772174  0.06829116 0.06829116]
+RQVAE epoch 3 recon=0.84502 train_parts=[0.85641333 0.08176319 0.08176319]
+RQVAE epoch 4 recon=0.82506 train_parts=[0.83572855 0.09436052 0.09436052]
+RQVAE epoch 5 recon=0.80691 train_parts=[0.81647387 0.10524659 0.10524659]
+RQVAE epoch 6 recon=0.79055 train_parts=[0.7992274  0.11480312 0.11480312]
+RQVAE epoch 7 recon=0.77540 train_parts=[0.78355092 0.12344695 0.12344695]
+RQVAE epoch 8 recon=0.76168 train_parts=[0.76933138 0.13138219 0.13138219]
+RQVAE epoch 9 recon=0.74932 train_parts=[0.75600969 0.13819336 0.13819336]
+RQVAE epoch 10 recon=0.73796 train_parts=[0.74434797 0.14372333 0.14372333]
+RQVAE epoch 11 recon=0.72779 train_parts=[0.7335149  0.14832139 0.14832139]
+RQVAE epoch 12 recon=0.71844 train_parts=[0.72378155 0.1522108  0.1522108 ]
+RQVAE epoch 13 recon=0.71010 train_parts=[0.71476815 0.15579217 0.15579217]
+RQVAE epoch 14 recon=0.70263 train_parts=[0.70701975 0.15912221 0.15912221]
+RQVAE epoch 15 recon=0.69599 train_parts=[0.69998738 0.16210569 0.16210569]
+RQVAE SID: C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\experiment2\collab\seed0\pca\sid.npy: {'base_unique': 11586, 'base_collision_items': 483, 'base_max_group': 17, 'suffix_vocab': 17, 'codebook_stage_usage': [256, 256, 256], 'recon_loss': 0.6959886481416424}

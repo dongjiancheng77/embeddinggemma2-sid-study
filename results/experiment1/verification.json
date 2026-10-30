@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "seed": 0,
+      "method": "linear",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "method": "ortho",
+      "users": 1000,
+      "orthogonality_cpu_max_error": 8.344650268554688e-07,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "method": "mrl",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "method": "linear",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "method": "ortho",
+      "users": 1000,
+      "orthogonality_cpu_max_error": 8.940696716308594e-07,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "method": "mrl",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "method": "linear",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "method": "ortho",
+      "users": 1000,
+      "orthogonality_cpu_max_error": 7.152557373046875e-07,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "method": "mrl",
+      "users": 1000,
+      "orthogonality_cpu_max_error": null,
+      "passed": true
+    }
+  ],
+  "hashes_match": true
+}

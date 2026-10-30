@@ -1,0 +1,20 @@
+{
+  "kind": "linear",
+  "setting": "collab",
+  "seed": 1,
+  "parameters": 98432,
+  "train_seconds": 2.0894273000303656,
+  "total_seconds": 2.1998127000406384,
+  "peak_bytes": 168136704,
+  "gradient_audit": {
+    "nonzero_trainable_gradient_tensors": 2,
+    "trainable_parameter_tensors": 2,
+    "unexpected_frozen_gradients": 0
+  },
+  "rec_validation_recall10": 0.045,
+  "rec_validation_ndcg10": 0.026380140632390976,
+  "rec_validation_candidates": 12069,
+  "text_validation_recall10": 0.9856770833333334,
+  "text_validation_ndcg10": 0.916932741800944,
+  "text_validation_candidates": 1536
+}

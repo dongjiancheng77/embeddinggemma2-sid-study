@@ -1,0 +1,17 @@
+ortho collab 16/256 loss=3.8687 seconds=1.3 peakGB=0.17
+ortho collab 32/256 loss=3.4504 seconds=1.4 peakGB=0.17
+ortho collab 48/256 loss=3.4220 seconds=1.4 peakGB=0.17
+ortho collab 64/256 loss=3.8215 seconds=1.5 peakGB=0.17
+ortho collab 80/256 loss=3.2036 seconds=1.5 peakGB=0.17
+ortho collab 96/256 loss=3.0849 seconds=1.6 peakGB=0.17
+ortho collab 112/256 loss=3.1915 seconds=1.7 peakGB=0.17
+ortho collab 128/256 loss=3.3248 seconds=1.7 peakGB=0.17
+ortho collab 144/256 loss=3.6109 seconds=1.8 peakGB=0.17
+ortho collab 160/256 loss=3.2206 seconds=1.8 peakGB=0.17
+ortho collab 176/256 loss=3.3498 seconds=1.9 peakGB=0.17
+ortho collab 192/256 loss=3.6465 seconds=2.0 peakGB=0.17
+ortho collab 208/256 loss=3.2034 seconds=2.0 peakGB=0.17
+ortho collab 224/256 loss=3.1943 seconds=2.1 peakGB=0.17
+ortho collab 240/256 loss=3.4310 seconds=2.2 peakGB=0.17
+ortho collab 256/256 loss=2.7245 seconds=2.2 peakGB=0.17
+FINISHED {"kind": "ortho", "setting": "collab", "seed": 2, "parameters": 98304, "train_seconds": 2.2167046000249684, "total_seconds": 2.4893295001238585, "peak_bytes": 171346432, "gradient_audit": {"nonzero_trainable_gradient_tensors": 1, "trainable_parameter_tensors": 1, "unexpected_frozen_gradients": 0}, "rec_validation_recall10": 0.039, "rec_validation_ndcg10": 0.021490520924329758, "rec_validation_candidates": 12069, "text_validation_recall10": 0.9856770833333334, "text_validation_ndcg10": 0.9197177439928055, "text_validation_candidates": 1536, "orthogonality_max_error": 7.748603820800781e-07}

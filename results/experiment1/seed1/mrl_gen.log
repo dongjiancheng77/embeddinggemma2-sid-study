@@ -1,0 +1,6 @@
+GEN epoch 1 trainCE=3.8280 valCE=3.6906
+GEN epoch 2 trainCE=3.2294 valCE=3.3434
+GEN epoch 3 trainCE=2.9244 valCE=3.1557
+GEN epoch 4 trainCE=2.7362 valCE=3.0296
+GEN epoch 5 trainCE=2.5993 valCE=2.9390
+GEN: saved C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\benchmark_20261029\seed1\mrl_gen.pt

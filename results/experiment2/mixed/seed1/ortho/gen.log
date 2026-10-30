@@ -1,0 +1,6 @@
+GEN epoch 1 trainCE=3.9312 valCE=3.7916
+GEN epoch 2 trainCE=3.2841 valCE=3.3807
+GEN epoch 3 trainCE=2.9373 valCE=3.1462
+GEN epoch 4 trainCE=2.7307 valCE=3.0045
+GEN epoch 5 trainCE=2.5883 valCE=2.9006
+GEN: saved C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\experiment2\mixed\seed1\ortho\gen.pt

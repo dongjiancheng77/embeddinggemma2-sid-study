@@ -1,0 +1,21 @@
+{
+  "model": "C:/Users/Lenovo/.cache/huggingface/hub/models--google--embeddinggemma-2/snapshots/f9972ac22e696a105c482202646979e33e4b5a1e",
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "max_tokens": 192,
+  "batch_size": 16,
+  "shape": [
+    12069,
+    768
+  ],
+  "finite": true,
+  "batch_consistency_max_abs": 0.001953125,
+  "truncated_items": 256,
+  "token_length_max": 346,
+  "token_length_mean": 110.89767172093794,
+  "norm_min": 0.9999998807907104,
+  "norm_max": 1.0000001192092896,
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "peak_allocated_bytes": 938083840,
+  "float32_renormalized": true
+}

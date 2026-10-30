@@ -1,0 +1,6 @@
+GEN epoch 1 trainCE=3.8525 valCE=3.7102
+GEN epoch 2 trainCE=3.2007 valCE=3.3449
+GEN epoch 3 trainCE=2.8850 valCE=3.1365
+GEN epoch 4 trainCE=2.6937 valCE=2.9990
+GEN epoch 5 trainCE=2.5586 valCE=2.9038
+GEN: saved C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\experiment2\collab\seed2\linear\gen.pt

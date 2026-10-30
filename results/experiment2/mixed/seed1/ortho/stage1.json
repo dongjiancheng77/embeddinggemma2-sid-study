@@ -1,0 +1,21 @@
+{
+  "kind": "ortho",
+  "setting": "mixed",
+  "seed": 1,
+  "parameters": 98304,
+  "train_seconds": 2.628822600003332,
+  "total_seconds": 2.8991906999144703,
+  "peak_bytes": 171346432,
+  "gradient_audit": {
+    "nonzero_trainable_gradient_tensors": 1,
+    "trainable_parameter_tensors": 1,
+    "unexpected_frozen_gradients": 0
+  },
+  "rec_validation_recall10": 0.043,
+  "rec_validation_ndcg10": 0.02365544006228447,
+  "rec_validation_candidates": 12069,
+  "text_validation_recall10": 0.9908854166666666,
+  "text_validation_ndcg10": 0.9317644139130911,
+  "text_validation_candidates": 1536,
+  "orthogonality_max_error": 7.152557373046875e-07
+}

@@ -1,0 +1,5 @@
+HEAD ortho epoch 1 loss=2.1368 val_R20=0.0870 val_N20=0.0369
+HEAD ortho epoch 2 loss=1.9539 val_R20=0.0950 val_N20=0.0403
+HEAD ortho epoch 3 loss=1.9003 val_R20=0.0980 val_N20=0.0414
+HEAD DIAGNOSTIC: {"continuous_neighbor_overlap20": 0.617578125, "overlap_query_count": 256, "proxy_val_recall20": 0.098, "proxy_val_ndcg20": 0.04136155557632446, "note": "Proxy: normalized mean history embedding scores items; not autoregressive SID metrics.", "trainable_parameters": 98304, "orthogonality_max_error": 5.364418029785156e-07}
+HEAD: ortho -> C:\Users\Lenovo\Documents\new\embeddinggemma2_minitiger\work\benchmark_20261029\seed1\ortho_128.npy

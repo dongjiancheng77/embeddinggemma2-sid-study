@@ -1,0 +1,20 @@
+{
+  "kind": "lora",
+  "setting": "mixed",
+  "seed": 2,
+  "parameters": 524288,
+  "train_seconds": 763.8618000000715,
+  "total_seconds": 838.9686252998654,
+  "peak_bytes": 7496772608,
+  "gradient_audit": {
+    "nonzero_trainable_gradient_tensors": 48,
+    "trainable_parameter_tensors": 96,
+    "unexpected_frozen_gradients": 0
+  },
+  "rec_validation_recall10": 0.064,
+  "rec_validation_ndcg10": 0.03642634236812591,
+  "rec_validation_candidates": 12069,
+  "text_validation_recall10": 0.9895833333333334,
+  "text_validation_ndcg10": 0.9289525598287582,
+  "text_validation_candidates": 1536
+}

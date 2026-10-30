@@ -1,0 +1,2 @@
+# Preserve the byte hashes recorded for executed sources and result snapshots.
+* -text

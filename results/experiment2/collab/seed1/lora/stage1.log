@@ -1,0 +1,23 @@
+W1029 23:31:09.336000 8524 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/413 [00:00<?, ?it/s]Loading weights:  32%|¨€¨€¨€¨‡      | 132/413 [00:00<00:00, 1319.99it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 413/413 [00:00<00:00, 2593.29it/s]
+lora collab 16/256 loss=3.9114 seconds=35.9 peakGB=7.50
+lora collab 32/256 loss=3.7303 seconds=65.4 peakGB=7.50
+lora collab 48/256 loss=3.7067 seconds=94.7 peakGB=7.50
+lora collab 64/256 loss=3.4210 seconds=124.1 peakGB=7.50
+lora collab 80/256 loss=3.6273 seconds=153.6 peakGB=7.50
+lora collab 96/256 loss=3.4439 seconds=183.1 peakGB=7.50
+lora collab 112/256 loss=3.7729 seconds=212.7 peakGB=7.50
+lora collab 128/256 loss=3.5625 seconds=242.1 peakGB=7.50
+lora collab 144/256 loss=3.2193 seconds=271.5 peakGB=7.50
+lora collab 160/256 loss=3.0748 seconds=300.7 peakGB=7.50
+lora collab 176/256 loss=3.1211 seconds=330.2 peakGB=7.50
+lora collab 192/256 loss=3.5308 seconds=359.5 peakGB=7.50
+lora collab 208/256 loss=3.2732 seconds=389.0 peakGB=7.50
+lora collab 224/256 loss=3.1588 seconds=418.5 peakGB=7.50
+lora collab 240/256 loss=3.5612 seconds=447.9 peakGB=7.50
+lora collab 256/256 loss=2.8370 seconds=477.2 peakGB=7.50
+EXPORT 0 / 15373
+EXPORT 4096 / 15373
+EXPORT 8192 / 15373
+EXPORT 12288 / 15373
+FINISHED {"kind": "lora", "setting": "collab", "seed": 1, "parameters": 524288, "train_seconds": 477.19770839996636, "total_seconds": 552.3666044001002, "peak_bytes": 7496772608, "gradient_audit": {"nonzero_trainable_gradient_tensors": 48, "trainable_parameter_tensors": 96, "unexpected_frozen_gradients": 0}, "rec_validation_recall10": 0.06, "rec_validation_ndcg10": 0.036235729217529294, "rec_validation_candidates": 12069, "text_validation_recall10": 0.9830729166666666, "text_validation_ndcg10": 0.9102873851855596, "text_validation_candidates": 1536}
