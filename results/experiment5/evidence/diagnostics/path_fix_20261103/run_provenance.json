@@ -1,0 +1,70 @@
+{
+  "started": "2026-11-02T20:33:09.762653",
+  "sources": {
+    "experiment5\\assets.py": "97d8dfd35af74912274c9ed4b0ffee31ec1f2fbaf00794d0fb9598f0e31b11da",
+    "experiment5\\batching.py": "7818c7f2d6d9a46342c21acc459b58b09548765632a565ec13acec828e655475",
+    "experiment5\\cache_catalog.py": "4375d07965dd23a5be331c720376759e05d91c960e1909223a1ef0172dcea143",
+    "experiment5\\check_cpu.py": "72e87c47046da23e76226d9b11e69027ed94107c050ee9cc2f5eeb15ff3574c3",
+    "experiment5\\check_preparation.py": "a517213df8a0fd01496405aef9a653cf97cebf63116aee3c086d4e4296fa877c",
+    "experiment5\\common.py": "e32ac97eb168141835e22c1d2ea1114f1e0f1c04096ccb52aac3479177a3ed68",
+    "experiment5\\fit_i2i.py": "7d886bd630857443c17d07e12ef36dec67bf20dca7090dd87319a2ec1bebbae3",
+    "experiment5\\gr_model.py": "824f762f9fc98048afda3192cd7764dda5c92d6c07cb903d731355067888483e",
+    "experiment5\\i2i.py": "31fe8053f1772d327315d388e38291c2548d36d88251dfcc43a042169704fb47",
+    "experiment5\\optimization.py": "3f930d67a0c06d3d2bdfb08c148edec3e9ee41a9e2825f8b94bf16f00f33ec8a",
+    "experiment5\\pairs.py": "1a67a1dd5196078a56227f1dd9594ba6789583ac336e9980bbb4b33bf4a84567",
+    "experiment5\\prepare.py": "a33f8b96f5998694a6afe73d70270f8c7e64675ccf915b22c17c76e7558a3659",
+    "experiment5\\profile_batching.py": "0a12c373247df47657b9040141cad08cd718f2f8d91f94af55592731f0d96e58",
+    "experiment5\\profile_embedding.py": "2f083c423a31ee59f5b5230500434ffb3752b04bd410d39afb0b7895f3366f7e",
+    "experiment5\\profile_gpu.py": "70d1c1ef5d6b975eaf4ac11039f83a959d0ca7c6a29b054e652602d63a2b0c7e",
+    "experiment5\\profile_real.py": "a18f375c71bbc1ad4df85842a2fe017b247978fb23b9d5a27b744f841ff830e7",
+    "experiment5\\quality.py": "5f61d1046cc2306c40a59b611a7a2beda108f7073c4615c82d16d869382627a0",
+    "experiment5\\quantize.py": "861034b9eecac9b49b04938153ad2ac4f87aa369e52bd845118873cb45a059ae",
+    "experiment5\\report.py": "5f0aa3e68cd7801f961fba62538e36936e841ff01865b24948fdc79d994ced7d",
+    "experiment5\\run.py": "29048c3735a6ecbad13d37c67f1b963641d93ff4959706e2aabf8e041cc7970c",
+    "experiment5\\swing.py": "3cf516d97a15dee2992d83629fdcc323b2643ee0d3f282c3d4aedf682926c381",
+    "experiment5\\test_protocol.py": "d3b27bbafe8f8880d8b287bef00a313306db3d4dacfbe93b270f54e5338cee86",
+    "experiment5\\train_gr.py": "075ec9bbbcdb2a395648886f2c9bde9f265c86e74d6505ae01ddc6f4b1d2811c",
+    "experiment5\\verify_swing.py": "23f5c26af5352f9d3dcaed9652cf32c9a39f1d93b16264bd8f5640e2044aa6d0",
+    "experiment3/gpu_guard.py": "8e2f38617ef72598a6ecb6c23561fcbbf72441d75f21bec7900404d4cac3433c"
+  },
+  "dataset": "Amazon Reviews2023 official Musical_Instruments 5core before split",
+  "variants": [
+    "all_cooccurrence",
+    "swing_top1_top5",
+    "swing_mutual_top1"
+  ],
+  "fixed_references_shared": true,
+  "GR_cases": 11,
+  "GR": {
+    "max_epochs": 10,
+    "patience": 2,
+    "batch": 32,
+    "length_grouping_window": 2048,
+    "layer_sleep": 0.00075,
+    "step_sleep": 0.002,
+    "beam": 100
+  },
+  "embedding": {
+    "updates": 2000,
+    "pairs_per_update": 32,
+    "temperature": 0.1,
+    "same_budget_for_A_B_E": true
+  },
+  "SID": {
+    "levels": 3,
+    "codebook_sizes": [
+      256,
+      256,
+      256
+    ],
+    "min_usage": 240,
+    "max_collision_rate": 0.15,
+    "max_group": 100,
+    "force_equal_collisions": false
+  },
+  "GPU": {
+    "pause": 85,
+    "stop": 90,
+    "automatic_retry": false
+  }
+}

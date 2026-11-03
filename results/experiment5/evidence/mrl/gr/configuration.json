@@ -1,0 +1,44 @@
+{
+  "arguments": {
+    "dataset": "Musical_Instruments",
+    "kind": "mrl",
+    "epochs": 10,
+    "patience": 2,
+    "batch": 32,
+    "lr": 0.0003,
+    "train_only": true,
+    "eval_only": false,
+    "preflight_only": false,
+    "preflight_steps": 3000
+  },
+  "parameters": 27666944,
+  "architecture_confirmed_by_pdf": {
+    "datasets": [
+      "Books",
+      "Movies & TV",
+      "Beauty"
+    ],
+    "split": "Global timestamp ascending, training/validation/test 80/10/10; not user splitting or per-user leave-last-out",
+    "baseline": "Paper Appendix A TIGER: scratch decoder-only, standard per-level NTP; no SPROUT components",
+    "layers": 8,
+    "heads": 8,
+    "width": 512,
+    "ffn": 2304,
+    "parameter_count": 27666944,
+    "sid_levels": 3,
+    "beam": 100,
+    "metric": "Item-exact Recall@100, deduplicated, historical items retained"
+  },
+  "recipe": "musical_swing_v1_length_grouped",
+  "sid_sha256": "12fd1e871e0dbbb149082255820d6f350cad76fc44a63aaafbd2032352a20e03",
+  "input_embedding_scale": 22.627416997969522,
+  "optimizer": "AdamW betas=(.9,.98), no weight decay on normalization or tied embeddings",
+  "schedule": "1000 update linear warmup, cosine to 0.1x LR; same effective batch32",
+  "batching": "seeded local length grouping, window2048, each event once per epoch",
+  "training_hyperparameters": "Repaired independent recipe, not author-provided; all A-E share it",
+  "train_events": 409468,
+  "validation_events": 51184,
+  "test_events": 51184,
+  "selection": "validation mean NTP loss; no test selection",
+  "embedding_loss": "TRAIN-only unordered i2i upstream; GR is chronological NTP, no SPROUT losses"
+}

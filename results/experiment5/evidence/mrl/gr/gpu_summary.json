@@ -1,0 +1,11 @@
+{
+  "peak_utilization": 76,
+  "last_state": "run",
+  "last_sample": {
+    "unix_time": 1793627277.3125515,
+    "gpu": 43,
+    "temperature": 69,
+    "memory_used": 2872778752,
+    "memory_total": 8546942976
+  }
+}

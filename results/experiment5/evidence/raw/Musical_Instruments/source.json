@@ -1,0 +1,11 @@
+{
+  "release": "Amazon Reviews 2023, official deduplicated 5-core IDs before splitting",
+  "source_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/benchmark/5core/rating_only/Musical_Instruments.csv.gz",
+  "metadata_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Musical_Instruments.jsonl.gz",
+  "category": "Musical_Instruments",
+  "events_sha256": "e1cabe91651102ada04aee6836e6a890cd557386389da6ee9c3c80e8aa507260",
+  "normalization": "Rename parent_asin to item_id; no rating filter, no extra k-core or user holdout; preserve all supplied timestamps.",
+  "paper_release_unknown": true,
+  "user_authorized_independent_reproduction": true,
+  "deviation": "User-selected Musical Instruments 2023 5-core, global timestamp 80/10/10; not a paper Table1 category reproduction."
+}

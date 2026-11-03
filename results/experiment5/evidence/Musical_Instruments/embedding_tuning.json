@@ -1,0 +1,23 @@
+{
+  "chosen_batch": 32,
+  "layer_sleep": 0.0015,
+  "step_sleep": 0.01,
+  "trials": [
+    {
+      "batch": 8,
+      "items_per_second": 73.14285714285714,
+      "peak_gpu": 35
+    },
+    {
+      "batch": 16,
+      "items_per_second": 128.0,
+      "peak_gpu": 46
+    },
+    {
+      "batch": 32,
+      "items_per_second": 159.56783711283495,
+      "peak_gpu": 66
+    }
+  ],
+  "purpose": "inference only; LoRA microbatch remains4"
+}

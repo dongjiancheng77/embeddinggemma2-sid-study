@@ -1,0 +1,10 @@
+{
+  "state": "run",
+  "reason": null,
+  "peak_utilization": 75,
+  "unix_time": 1793632199.9810438,
+  "gpu": 42,
+  "temperature": 69,
+  "memory_used": 2872254464,
+  "memory_total": 8546942976
+}

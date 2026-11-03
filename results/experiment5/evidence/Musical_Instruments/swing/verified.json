@@ -1,0 +1,17 @@
+{
+  "sampled_scores": 32,
+  "max_absolute_error": 1.1102230246251565e-16,
+  "variants": {
+    "swing_top1_top5": {
+      "edges": 2827,
+      "positive_weight_min": 2.0,
+      "rank_check": "passed"
+    },
+    "swing_mutual_top1": {
+      "edges": 723,
+      "positive_weight_min": 2.0,
+      "rank_check": "passed"
+    }
+  },
+  "only_train": true
+}

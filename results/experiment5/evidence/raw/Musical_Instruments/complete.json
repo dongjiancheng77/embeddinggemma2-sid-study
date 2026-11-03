@@ -1,0 +1,12 @@
+{
+  "dataset": "Musical_Instruments",
+  "category": "Musical_Instruments",
+  "events": 511836,
+  "items": 24587,
+  "metadata_scanned": 213593,
+  "missing_metadata": 0,
+  "missing_policy": "Retain event/catalog items with a category-only placeholder; never silently change the temporal split.",
+  "events_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/benchmark/5core/rating_only/Musical_Instruments.csv.gz",
+  "metadata_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Musical_Instruments.jsonl.gz",
+  "metadata_sha256": "26a08fb09c39f9afc0982e7c101967df23a08ccdb0832657a3fe1af89e67c29d"
+}

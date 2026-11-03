@@ -1,0 +1,10 @@
+{
+  "reviewed_at": "2026-11-03T08:34:00.775703",
+  "cause": "Nested variant directory broke path.parent manifest lookup in quantize.py",
+  "fix": "Read dataset_root/manifest.json independently from case depth; validate vector count/shape/finite values",
+  "manual_recovery": true,
+  "safety_failure": false,
+  "validation": "Original failing A/no-top SID command completed and passed original gates",
+  "A_sid_collision_rate": 0.027819579452556198,
+  "preserve_completed_training": true
+}

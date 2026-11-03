@@ -1,0 +1,20 @@
+{
+  "old_random": {
+    "steps": 64,
+    "seconds": 6.797000000020489,
+    "events_per_second": 301.30940120550633,
+    "train_epoch_minutes_estimate": 22.649365201891193,
+    "peak_gpu": 56
+  },
+  "new_grouped": {
+    "steps": 64,
+    "seconds": 2.922000000020489,
+    "events_per_second": 700.8898015009033,
+    "train_epoch_minutes_estimate": 9.736861132880774,
+    "peak_gpu": 54
+  },
+  "speedup": 2.3261464750078127,
+  "speed_only": true,
+  "synthetic_sid_labels": true,
+  "includes_validation_or_test": false
+}

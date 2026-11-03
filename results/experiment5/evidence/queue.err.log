@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>\experiment5\run.py", line 83, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "<WORKSPACE>\experiment5\run.py", line 73, in main
+    execute(key+'/train',['train_gr.py','--dataset',dataset,'--kind',key,'--epochs','10','--patience','2','--train-only'],path/'gr/training_complete.json',True)
+  File "<WORKSPACE>\experiment5\run.py", line 54, in execute
+    if child.returncode:raise RuntimeError(f'{label} exited {child.returncode}; no automatic retry')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: all_cooccurrence/linear/train exited 90; no automatic retry

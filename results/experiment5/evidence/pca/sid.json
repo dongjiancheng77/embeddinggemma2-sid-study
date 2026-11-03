@@ -1,0 +1,228 @@
+{
+  "levels": 3,
+  "codebook_sizes": [
+    256,
+    256,
+    256
+  ],
+  "items": 24587,
+  "unique_paths": 23016,
+  "collision_excess": 1571,
+  "collision_rate": 0.06389555456135354,
+  "collision_policy": "No suffix; same-score item expansion, deterministic item-index tie breaking.",
+  "source": "Repaired independent RQVAE: slower encoder, per-epoch KMeans refresh, reset codebook optimizer moments.",
+  "recipe": "repair_v2",
+  "usage": [
+    256,
+    256,
+    256
+  ],
+  "largest_collision_group": 8,
+  "residual_collisions": "Natural three-level collisions are retained and reported, not forced to zero; no fourth token or new scoring module.",
+  "epochs": 20,
+  "ae_warmup_epochs": 5,
+  "losses": [
+    0.015658277391018917,
+    0.013413733175518562,
+    0.01192259212613714,
+    0.010764449872836774,
+    0.009914099923049917,
+    0.009277870004274408,
+    0.008786097758126502,
+    0.008394229796011838,
+    0.008062221147880261,
+    0.007808122907442098,
+    0.007600018650065272,
+    0.007457316834099439,
+    0.00729902893570917,
+    0.007179326662907795,
+    0.007059642988048038,
+    0.006988354426409517,
+    0.006931102521033312,
+    0.006855978563960109,
+    0.006799844929910436,
+    0.006749984580187165
+  ],
+  "trajectory": [
+    {
+      "epoch": 1,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05043315573270424
+    },
+    {
+      "epoch": 2,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05193801602472847
+    },
+    {
+      "epoch": 3,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.056574612600154506
+    },
+    {
+      "epoch": 4,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.052141375523650724
+    },
+    {
+      "epoch": 5,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.054012282913734944
+    },
+    {
+      "epoch": 6,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05197868792451299
+    },
+    {
+      "epoch": 7,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05323951681783057
+    },
+    {
+      "epoch": 8,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05600520600317238
+    },
+    {
+      "epoch": 9,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.055761174604465724
+    },
+    {
+      "epoch": 10,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05592386220360357
+    },
+    {
+      "epoch": 11,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.056574612600154506
+    },
+    {
+      "epoch": 12,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.057428722495627804
+    },
+    {
+      "epoch": 13,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.06007239598161629
+    },
+    {
+      "epoch": 14,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.060438443079676274
+    },
+    {
+      "epoch": 15,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05628990930166344
+    },
+    {
+      "epoch": 16,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.06088583397730507
+    },
+    {
+      "epoch": 17,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.06080449017773615
+    },
+    {
+      "epoch": 18,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.05864887948916098
+    },
+    {
+      "epoch": 19,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.061373896774718384
+    },
+    {
+      "epoch": 20,
+      "usage": [
+        256,
+        256,
+        256
+      ],
+      "collision_rate": 0.06389555456135354
+    }
+  ]
+}

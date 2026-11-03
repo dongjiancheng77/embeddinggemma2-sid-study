@@ -1,0 +1,10 @@
+{
+  "state": "stop",
+  "reason": "gpu_memory_above_6.2GiB",
+  "peak_utilization": 89,
+  "unix_time": 1793666969.506233,
+  "gpu": 14,
+  "temperature": 65,
+  "memory_used": 7035920384,
+  "memory_total": 8546942976
+}

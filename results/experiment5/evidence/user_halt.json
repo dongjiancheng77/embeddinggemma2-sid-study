@@ -1,0 +1,7 @@
+{
+  "requested_halt": true,
+  "new_training": false,
+  "new_evaluation": false,
+  "live_processes": false,
+  "original_safety_stop_preserved": true
+}

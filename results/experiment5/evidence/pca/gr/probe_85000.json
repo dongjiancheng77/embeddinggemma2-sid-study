@@ -1,0 +1,21 @@
+{
+  "examples": 1024,
+  "loss": {
+    "history": 3.597989480360411,
+    "other_history": 4.066442851210013,
+    "wrong_prefix": 7.917913605226204
+  },
+  "first_level_loss": {
+    "history": 4.867575452371966,
+    "other_history": 6.029763610335067,
+    "wrong_prefix": 4.867575452371966
+  },
+  "marginal_frequency_loss": 5.443783252570344,
+  "prefix_penalty": 4.319924124865793,
+  "history_penalty": 0.4684533708496019,
+  "first_level_history_penalty": 1.1621881579631008,
+  "passed": true,
+  "global_step": 85000,
+  "recipe": "musical_swing_v1_length_grouped",
+  "peak_gpu_utilization": 75
+}

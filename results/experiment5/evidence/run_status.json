@@ -1,0 +1,26 @@
+{
+  "state": "stopped",
+  "phase": "all_cooccurrence/linear/train",
+  "completed": [
+    "prepare",
+    "swing",
+    "verify_swing",
+    "embedding_tuning",
+    "cache",
+    "batching_profile",
+    "mrl/i2i",
+    "mrl/sid",
+    "mrl/train",
+    "pca/i2i",
+    "pca/sid",
+    "pca/train",
+    "all_cooccurrence/linear/i2i",
+    "all_cooccurrence/linear/sid"
+  ],
+  "parent_pid": 9288,
+  "started_unix": 1793666042.3969035,
+  "child_pid": 38036,
+  "log": "<WORKSPACE>\\work\\experiment5\\all_cooccurrence_linear_train.log",
+  "updated_unix": 1793666972.2050712,
+  "error": "RuntimeError('all_cooccurrence/linear/train exited 90; no automatic retry')"
+}

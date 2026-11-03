@@ -1,0 +1,17 @@
+{
+  "artifact_only": true,
+  "new_training": false,
+  "new_evaluation": false,
+  "planned_unique_cases": 11,
+  "trained_cases": 2,
+  "interrupted_cases": 1,
+  "not_started_cases": 8,
+  "test_metrics_present": false,
+  "conditioning_probes_passed": 40,
+  "conditioning_probes_failed": 0,
+  "SID_rates_recomputed": true,
+  "best_epochs_checked": true,
+  "executed_source_versions_verified": true,
+  "local_weight_hashes_recorded": true,
+  "weights_uploaded": false
+}

@@ -1,0 +1,4 @@
+{
+  "nonzero_trainable_gradients": 2,
+  "frozen_gradients": 0
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "pca",
+  "variant": "all_cooccurrence",
+  "positive_rule": "shared TRAIN user count",
+  "parameters": 0,
+  "updates": 0,
+  "losses": [],
+  "seconds": 1.2189999998081475,
+  "supervision": "TRAIN-only uniform-user unordered pairs, shared-user-weighted multi-positive loss",
+  "effective_pairs_per_batch": 32,
+  "temperature": 0.1,
+  "history_text_inputs": false,
+  "next_item_labels": false
+}

@@ -1,0 +1,14 @@
+{
+  "old_random": {
+    "padded_tokens": 48155296,
+    "attention_proxy": 7505090464
+  },
+  "new_local_grouped": {
+    "padded_tokens": 10152928,
+    "attention_proxy": 907432288
+  },
+  "token_reduction": 0.7891627953029299,
+  "attention_proxy_reduction": 0.8790910925920586,
+  "all_events_once": true,
+  "measured_gpu_speedup": false
+}

@@ -1,0 +1,27 @@
+{
+  "formula": "sum over u<v in U(i) intersect U(j): 1/sqrt(|Iu| |Iv|) / (1+|Iu intersect Iv|)",
+  "alpha": 1,
+  "user_weight": "1/sqrt(distinct training items)",
+  "exact": true,
+  "caps_or_sampling": false,
+  "self_user_pairs": false,
+  "source": "https://arxiv.org/abs/2010.05525",
+  "ties": "descending score, ascending canonical item index; zero scores excluded",
+  "only_train": true,
+  "events_sha256": "e6b6d3a284bcb2d446c6cb5ea18b08aeb1195060dc782aeec76c016d86c7962b",
+  "item_pairs": 196123,
+  "filter_semantics": "top1/top5 conditions on directed rankings, then union into unordered positive edges",
+  "variants": {
+    "swing_top1_top5": {
+      "unordered_pairs": 2827,
+      "covered_items": 4602,
+      "catalog_coverage": 0.18717208280798797
+    },
+    "swing_mutual_top1": {
+      "unordered_pairs": 723,
+      "covered_items": 1446,
+      "catalog_coverage": 0.0588115670882987
+    }
+  },
+  "seconds": 5.813000000081956
+}

@@ -1,5 +1,8 @@
 # EmbeddingGemma 2 → 128d → SID 推荐实验
 
+> **2026-11-03 更新：最新 Musical Instruments 实验已停止，暂不启动新的训练或评测。** 本轮仅 C/D 完成 GR 训练，A 在第2轮因 GPU 显存安全阈值中断，B/E及两种 Swing 设置未运行；尚无正式 Recall@100，不能据此排名五种方案。
+> [阶段性报告](results/experiment5/report.html) · [机器可读结果](results/experiment5/summary.json) · [结果表](results/experiment5/summary.csv) · [代码和实验口径](experiment5/README.md)。下面的推荐结论仅属于历史 experiment2，数据和评测口径不同。
+
 在 RTX 5070 Laptop 8 GB 上，对比五种 128 维商品表示与两种第一阶段训练设置。骨干为固定版本的 EmbeddingGemma 2 文本塔，下游为相同设置的 RQ-VAE 和小型 GRU 自回归 SID 推荐器。
 
 **本轮建议优先保留 B：正交矩阵＋普通文本混合训练。** 这是一个固定短预算、单一 Beauty 数据集的筛选结果，不能视为完整 SpecMRL/TIGER 复现或充分收敛结论。

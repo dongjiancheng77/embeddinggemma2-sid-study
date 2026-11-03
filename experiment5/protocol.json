@@ -1,0 +1,62 @@
+{
+  "source_pdf": "C:/Users/Lenovo/Downloads/2027_WWW_Haotian_Nan_SPROUT.pdf",
+  "paper_confirmed": {
+    "datasets": [
+      "Books",
+      "Movies & TV",
+      "Beauty"
+    ],
+    "split": "Global timestamp ascending, training/validation/test 80/10/10; not user splitting or per-user leave-last-out",
+    "baseline": "Paper Appendix A TIGER: scratch decoder-only, standard per-level NTP; no SPROUT components",
+    "layers": 8,
+    "heads": 8,
+    "width": 512,
+    "ffn": 2304,
+    "parameter_count": 27666944,
+    "sid_levels": 3,
+    "beam": 100,
+    "metric": "Item-exact Recall@100, deduplicated, historical items retained"
+  },
+  "user_requested_change": {
+    "embedding_supervision": "Unordered item-to-item co-occurrence from every user's complete TRAIN item set; A/B/E only",
+    "no_history_text_query": true,
+    "no_next_item_direction_in_embedding_loss": true,
+    "no_general_text_pairs": true,
+    "C": "Frozen native prefix128",
+    "D": "Unsupervised centered PCA128"
+  },
+  "leakage_boundary": "Global temporal split is applied first. Construct i2i supervision exclusively from train interactions; validation/test events never enter co-occurrence counts, pairs or supervised fine-tuning. GR itself remains chronological next-item prediction.",
+  "provisional_not_stated_in_pdf": {
+    "normalization": "pre-LayerNorm, bias-free, final LayerNorm",
+    "activation": "GELU",
+    "dropout": 0.1,
+    "positions": "fixed sinusoidal",
+    "output_embedding": "tied",
+    "tokens": "3x256 SID tokens + PAD/BOS/SEP/EOS",
+    "max_history_items": 100,
+    "collision_resolution": "keep 3 SID levels; expand tied paths to all items, deterministic item-index tie break; do not add a fourth SID level",
+    "i2i_sampling": "Uniform training users, uniform unordered pairs from complete distinct item sets; symmetric multi-positive contrastive loss using shared-user counts"
+  },
+  "independent_reproduction_authorization": "User: 没有代码暂时，请直接复现",
+  "fixed_public_data_recipe": {
+    "release": "Amazon Reviews 2023 official deduplicated 5-core, before splitting",
+    "categories": {
+      "Beauty": "Beauty_and_Personal_Care",
+      "Movies_and_TV": "Movies_and_TV",
+      "Books": "Books"
+    },
+    "split": "Recompute GLOBAL timestamp 80/10/10, equal timestamps kept in one partition",
+    "paper_table_counts": "Audit and retain differences; exact matching is not required under the user-authorized independent reproduction."
+  },
+  "limits_to_exact_paper_reproduction": [
+    "Author repository files API is accessible, but currently lists only an 8-byte README.md whose content is '# SPROUT'; no implementation or dataset is published there.",
+    "PDF does not specify Amazon release, filtering/metadata preprocessing, complete optimizer/schedule/tokenizer configurations.",
+    "Do not substitute the previous Amazon2023 Industrial dataset or the previous Beauty5core dataset while claiming paper reproduction."
+  ],
+  "repair_v2": {
+    "quantizer": "encoder LR1e-4; per-epoch KMeans refresh and reset codebook moments; retain/report natural three-token collisions",
+    "GR": "input_scale sqrt512; AdamW 3e-4 betas .9/.98; no norm/embedding decay; 1000-step warmup and cosine floor0.1; validation-only loss/history/prefix gates every5000 updates",
+    "workspace": "work/experiment4_v2",
+    "reuse": "Verified original raw data, global split, content cache, fixed C only; no old SID/GR reused"
+  }
+}
